@@ -1,0 +1,221 @@
+<div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+  <div class="card shadow text-center">
+    <!-- <div class="position-relative rounded-top progress-wrapper" data-color="#fdb157">
+              <div class="wave" data-progress="90%"></div>
+            </div> -->
+    <div class="card-footer bg-white">
+      <h4 class="card-title">CONSULTANCY</h4>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+  <div class="card shadow text-center">
+    <!-- <div class="position-relative rounded-top progress-wrapper" data-color="#9473e6">
+              <div class="wave" data-progress="90%"></div>
+            </div> -->
+    <div class="card-footer bg-white">
+      <h4 class="card-title">DEVELOPMENT</h4>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+  <div class="card shadow text-center">
+    <!-- <div class="position-relative rounded-top progress-wrapper" data-color="#bdecf6">
+              <div class="wave" data-progress="80%"></div>
+            </div> -->
+    <div class="card-footer bg-white">
+      <h4 class="card-title">CONCEPT & DESIGN</h4>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+  <div class="card shadow text-center">
+    <!-- <div class="position-relative rounded-top progress-wrapper" data-color="#ffbcaa">
+              <div class="wave" data-progress="90%"></div>
+            </div> -->
+    <div class="card-footer bg-white">
+      <h4 class="card-title">MARKETING & MANAGING
+      </h4>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+<!-- FEATURE -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">FEATURES OF OUR PRODUCTS</h2>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-reload icon mb-5 d-inline-block"></i>
+            <h6 class="mb-4">REUSEABLE MATERIALS</h6>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-money icon mb-5 d-inline-block"></i>
+            <h6 class="mb-4">AFFORDABLE COST</h6>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-archive icon mb-5 d-inline-block"></i>
+            <h6 class="mb-4">RAPID BUILD IN UPTO 60 DAYS*</h6>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-shift-right-alt icon mb-5 d-inline-block"></i>
+            <h6 class="mb-4">EASY RELOCATION</h6>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-desktop icon mb-5 d-inline-block"></i>
+            <h6 class="mb-4">ATTRACTIVE DESIGN</h6>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-agenda icon mb-5 d-inline-block"></i>
+            <h6 class="mb-4">CUSTOMIZABLE</h6> <br>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /services -->
+
+<!-- client logo slider -->
+<!-- <section class="section pb-0">
+    <div class="container">
+      <div class="client-logo-slider d-flex align-items-center">
+        <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+            src="images/clients-logo/client-logo-1.png" alt="client-logo"></a>
+        <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+            src="images/clients-logo/client-logo-2.png" alt="client-logo"></a>
+        <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+            src="images/clients-logo/client-logo-3.png" alt="client-logo"></a>
+        <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+            src="images/clients-logo/client-logo-4.png" alt="client-logo"></a>
+        <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+            src="images/clients-logo/client-logo-5.png" alt="client-logo"></a>
+        <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+            src="images/clients-logo/client-logo-1.png" alt="client-logo"></a>
+        <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+            src="images/clients-logo/client-logo-2.png" alt="client-logo"></a>
+        <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+            src="images/clients-logo/client-logo-3.png" alt="client-logo"></a>
+        <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+            src="images/clients-logo/client-logo-4.png" alt="client-logo"></a>
+        <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+            src="images/clients-logo/client-logo-5.png" alt="client-logo"></a>
+      </div>
+    </div>
+  </section> -->
+<!-- /client logo slider -->
+
+
+  <!-- portfolio -->
+  <section class="section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Portfolio</h2>
+        </div>
+      </div>
+      <div class="row shuffle-wrapper">
+
+        <div class="col-lg-4 col-6 mb-4 shuffle-item">
+          <div class="position-relative rounded hover-wrapper">
+            <img src="images/portfolio/elevated 2.jpeg" alt="portfolio-image" class="img-fluid rounded w-100">
+            <div class="hover-overlay">
+              <div class="hover-content">
+                <a class="btn btn-light btn-sm" href="#!">view project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-6 mb-4 shuffle-item">
+          <div class="position-relative rounded hover-wrapper">
+            <img src="images/portfolio/camps.jpg" alt="portfolio-image" class="img-fluid rounded w-100">
+            <div class="hover-overlay">
+              <div class="hover-content">
+                <a class="btn btn-light btn-sm" href="#!">view project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-6 mb-4 shuffle-item">
+          <div class="position-relative rounded hover-wrapper">
+            <img src="images/portfolio/elevated.jpeg" alt="portfolio-image" class="img-fluid rounded w-100">
+            <div class="hover-overlay">
+              <div class="hover-content">
+                <a class="btn btn-light btn-sm" href="#!">view project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center">
+          <button><a href="portfolio.html" class="btn btn-transparent">SEE MORE PROJECTS</a></button>
+        </div>
+      </div>
+
+    </div>
+
+
+    </div>
+  </section>
+  <!-- /portfolio -->
+
+
+  <li data-filter="*" class="filter-active">All</li>
+  <li data-filter=".lux">Luxurious Resort Cottages</li>
+  <li data-filter=".ele">Elevated Cottages</li>
+  <li data-filter=".gh">Glamp Hut</li>
+  <li data-filter=".gc">Glass- Cube</li>
+  <li data-filter=".pm">Pre-fab modular home</li>
+  <li data-filter=".con">Container units</li>
+  <li data-filter=".th">Triangle-cottage</li>
+
+
+  #bab8bb
