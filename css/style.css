@@ -225,15 +225,44 @@ a:hover {
 }
 
 .section {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 70px;
+  padding-bottom: 30px;
 }
 
-.section-title {
+/* .section-title {
   margin-bottom: 80px;
-  /* font-family: "Playfair Display", serif; */
+  font-family: "Playfair Display", serif;
   font-family: 'Chakra Petch', sans-serif;
 
+} */
+
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  color: #000000;
+}
+.section-title h2::before, .section-title h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #000000;
+  display: inline-block;
+}
+.section-title h2::before {
+  margin: 0 15px 10px 0;
+}
+.section-title h2::after {
+  margin: 0 0 10px 15px;
+}
+.section-title p {
+  margin: 15px 0 0 0;
 }
 
 .bg-cover {
@@ -1121,7 +1150,7 @@ a.vanillatop:hover {
 
 @media only screen and (min-width: 768px) {
   .new1 {
-    font-size: 16px ;
+    font-size: 8px ;
   }
 }
 
@@ -1355,6 +1384,13 @@ font-family: 'Nunito', sans-serif;
 
 /* Rounded border */
 hr.rounded {
-  border-top: 8px solid rgb(0, 0, 0);
-  border-radius: 5px;
+  border-top: 1px solid rgb(255, 255, 255);
+  border-radius: 1px;
+}
+
+
+/* About Text */
+
+.about1{
+
 }
