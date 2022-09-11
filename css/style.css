@@ -1388,9 +1388,10 @@ hr.rounded {
   border-radius: 1px;
 }
 
-
-/* About Text */
-
-.about1{
-
-}
+.site-section {
+  padding: 2em 0; }
+  @media (min-width: 768px) {
+    .site-section {
+      padding: 4em 0; } }
+  .site-section.site-section-sm {
+    padding: 2em 0; }
