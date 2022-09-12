@@ -1,5 +1,3 @@
-
-
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:400");
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
@@ -241,6 +239,7 @@ a:hover {
   text-align: center;
   padding-bottom: 30px;
 }
+
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
@@ -248,19 +247,24 @@ a:hover {
   position: relative;
   color: #000000;
 }
-.section-title h2::before, .section-title h2::after {
+
+.section-title h2::before,
+.section-title h2::after {
   content: "";
   width: 50px;
   height: 2px;
   background: #000000;
   display: inline-block;
 }
+
 .section-title h2::before {
   margin: 0 15px 10px 0;
 }
+
 .section-title h2::after {
   margin: 0 0 10px 15px;
 }
+
 .section-title p {
   margin: 15px 0 0 0;
 }
@@ -470,7 +474,7 @@ textarea.form-control {
 
 /* /card */
 .navigation {
-  padding:8px 150px;
+  padding: 8px 150px;
   transition: 0.3s ease;
 }
 
@@ -497,7 +501,7 @@ textarea.form-control {
   font-family: 'Chakra Petch', sans-serif !important;
   text-transform: uppercase;
   padding: 10px 50px 20px 10px;
-  font-size:18px;
+  font-size: 18px;
 }
 
 .navbar .nav-item.active {
@@ -515,7 +519,7 @@ textarea.form-control {
 
 @media (max-width: 767px) {
   .hero-area {
-    padding: 20px 0 150px;
+    padding: 20px 0 2px;
     overflow: hidden;
   }
 }
@@ -1144,19 +1148,19 @@ a.vanillatop:hover {
 /* For Text Mobile */
 
 .new1 {
-  font-size: 10px ;
+  font-size: 10px;
 }
 
 
 @media only screen and (min-width: 768px) {
   .new1 {
-    font-size: 8px ;
+    font-size: 8px;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .new1 {
-    font-size: 22px ;
+    font-size: 22px;
   }
 }
 
@@ -1167,14 +1171,16 @@ a.vanillatop:hover {
   background: #f1f7fd;
   padding: 70px 0 60px;
 }
+
 .counts .count-box {
   padding: 30px 20px 25px 5px;
   width: 100%;
-  height:85%;
+  height: 85%;
   position: relative;
   text-align: center;
   background: #fff;
 }
+
 .counts .count-box i {
   position: absolute;
   top: -25px;
@@ -1190,17 +1196,19 @@ a.vanillatop:hover {
   width: 48px;
   height: 48px;
 }
+
 .counts .count-box span {
   font-size: 36px;
   display: block;
   font-weight: 600;
   color: #082744;
 }
+
 .counts .count-box p {
   padding: 0;
   margin: 0;
   /* font-family: Hind, sans-serif; */
-font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 14px;
 }
 
@@ -1281,9 +1289,11 @@ font-family: 'Nunito', sans-serif;
   overflow: hidden;
   margin-bottom: 30px;
 }
+
 .product-item img {
   transition: 0.3s ease;
 }
+
 .product-item .tag {
   position: absolute;
   left: 0;
@@ -1294,28 +1304,35 @@ font-family: 'Nunito', sans-serif;
   font-weight: 700;
   color: #fff;
 }
+
 .product-item .tag.on-sale-tag {
   background: #e82d2d;
   -webkit-clip-path: polygon(100% 0, 89% 50%, 100% 100%, 0% 100%, 0 51%, 0% 0%);
-          clip-path: polygon(100% 0, 89% 50%, 100% 100%, 0% 100%, 0 51%, 0% 0%);
+  clip-path: polygon(100% 0, 89% 50%, 100% 100%, 0% 100%, 0 51%, 0% 0%);
 }
+
 .product-item .tag.discount-tag {
   background: #363636;
 }
+
 .product-item:hover .product-overlay {
   transform: scale(1);
 }
+
 .product-item:hover img {
   transform: scale(1.3);
 }
+
 @media (max-width: 575px) {
   .product-item:hover .product-overlay {
     transform: scale(0);
   }
+
   .product-item:hover img {
     transform: scale(1);
   }
 }
+
 .product-overlay {
   position: absolute;
   left: 0;
@@ -1326,6 +1343,7 @@ font-family: 'Nunito', sans-serif;
   transform: scale(0);
   transition: 0.3s ease;
 }
+
 .product-info {
   position: absolute;
   top: 50%;
@@ -1334,10 +1352,12 @@ font-family: 'Nunito', sans-serif;
   transform: translateY(-50%);
   text-align: center;
 }
+
 .product-info h4.product-name {
   position: relative;
   margin-bottom: 20px;
 }
+
 .product-info h4.product-name::before {
   position: absolute;
   content: "";
@@ -1348,25 +1368,30 @@ font-family: 'Nunito', sans-serif;
   bottom: -10px;
   transform: translateX(-50%);
 }
+
 .product-info h4.new-price {
   font-weight: 700;
   margin-bottom: 10px;
 }
+
 .product-info s {
   font-size: 15px;
   color: #808080;
 }
+
 .product-info-mobile {
   display: none;
   align-items: center;
   justify-content: space-between;
   margin-top: 10px;
 }
+
 @media (max-width: 575px) {
   .product-info-mobile {
     display: flex;
   }
 }
+
 .product-info-mobile s,
 .product-info-mobile p {
   color: #808080;
@@ -1374,6 +1399,7 @@ font-family: 'Nunito', sans-serif;
   font-size: 15px;
   font-weight: 700;
 }
+
 .product-info-mobile p {
   color: #3b3b3b;
   margin-right: 10px;
@@ -1389,9 +1415,54 @@ hr.rounded {
 }
 
 .site-section {
-  padding: 2em 0; }
-  @media (min-width: 768px) {
-    .site-section {
-      padding: 4em 0; } }
-  .site-section.site-section-sm {
-    padding: 2em 0; }
+  padding: 2em 0;
+}
+
+@media (min-width: 768px) {
+  .site-section {
+    padding: 4em 0;
+  }
+}
+
+.site-section.site-section-sm {
+  padding: 2em 0;
+}
+
+/*  */
+
+
+/* ***************************************************** */
+@media (max-width: 300px) {
+  #mobile {
+    /* background-color: red; */
+    content: url("/images/backgrounds/04.jpg");
+    height: 560px;
+    margin-top: 25%;
+  }
+}
+
+@media (min-width: 301px) and (max-width: 600px) {
+  #mobile {
+    /* background-color: blue; */
+    content: url("/images/backgrounds/04.jpg");
+
+    height: 560px;
+    margin-top: 25%;
+
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  #mobile {
+    /* background-color: yellow; */
+    content: url("/images/backgrounds/032.jpg");
+  }
+}
+
+@media (min-width: 769px) {
+  #mobile {
+    /* background-color: green; */
+    content: url("/images/backgrounds/032.jpg");
+
+  }
+}
