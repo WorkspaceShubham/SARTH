@@ -1435,7 +1435,7 @@ hr.rounded {
 @media (max-width: 300px) {
   #mobile {
     /* background-color: red; */
-    content: url("/images/backgrounds/04.jpg");
+    content: url("/images/backgrounds/04.webp");
     height: 560px;
     margin-top: 25%;
   }
@@ -1444,7 +1444,7 @@ hr.rounded {
 @media (min-width: 301px) and (max-width: 600px) {
   #mobile {
     /* background-color: blue; */
-    content: url("/images/backgrounds/04.jpg");
+    content: url("/images/backgrounds/04.webp");
 
     height: 560px;
     margin-top: 25%;
@@ -1455,14 +1455,14 @@ hr.rounded {
 @media (min-width: 601px) and (max-width: 768px) {
   #mobile {
     /* background-color: yellow; */
-    content: url("/images/backgrounds/032.jpg");
+    content: url("/images/backgrounds/032.webp");
   }
 }
 
 @media (min-width: 769px) {
   #mobile {
     /* background-color: green; */
-    content: url("/images/backgrounds/032.jpg");
+    content: url("/images/backgrounds/032.webp");
 
   }
 }
