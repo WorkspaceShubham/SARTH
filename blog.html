@@ -43,44 +43,45 @@
 
 
 
-</div><a href="#" class="vanillatop"></a>
+  </div><a href="#" class="vanillatop"></a>
   <script>
     document.addEventListener("DOMContentLoaded", function () { var t = document.querySelector(".vanillatop"); function e(n) { var o = window.pageYOffset, a = Math.floor(Date.now()); !function t() { Math.easeInOutQuad = function (t) { return t < .5 ? 2 * t * t : (4 - 2 * t) * t - 1 }; var e = Math.min(1, (Math.floor(Date.now()) - a) / n); window.scroll(0, Math.ceil(Math.easeInOutQuad(e) * (0 - o) + o)), 0 === window.pageYOffset && callback(), requestAnimationFrame(t) }() } t.addEventListener("click", function () { window.requestAnimationFrame ? e(700) : window.scrollTo(0, 0) }), window.addEventListener("scroll", function () { 280 < document.body.scrollTop || 280 < document.documentElement.scrollTop ? (t.removeAttribute("style", "transform: translateX(120px);"), t.setAttribute("style", "transform: translateX(0);")) : (t.removeAttribute("style", "transform: translateX(0);"), t.setAttribute("style", "transform: translateX(120px);")) }) });
   </script>
 
 
 
-<header class="navigation fixed-top">
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand font-tertiary mb-1 ml-3" href="index.html"><img src="images/icons/logo.png" alt="Myself"></a>
-    <button class="navbar-toggler btn-danger" type="button" data-toggle="collapse" data-target="#navigation"
-      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <header class="navigation fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand font-tertiary mb-1 ml-3" href="index.html"><img src="images/icons/logo.png"
+          alt="Myself"></a>
+      <button class="navbar-toggler btn-danger" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse text-center" id="navigation">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="blog.html">Products</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <!-- <a class="nav-link" href="contact.html">Contact</a> -->
-          <a class="btn btn-light btn-sm mb-1" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
-            NOW</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</header>
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="contact.html">Contact</a> -->
+            <a class="btn btn-light btn-sm mb-1" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
+              NOW</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
   <!-- page title -->
   <section class="page-title bg-primary position-relative">
@@ -152,7 +153,7 @@
 
         <!-- Luxury -->
 
-        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;lux&quot;]">
+        <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;lux&quot;]">
           <div class="position-relative rounded hover-wrapper">
             <div class="col-12 text-center">
               <h4 style="color:rgb(0, 0, 0); font-weight: 900;;">Luxurious Resort Cottages</h3>
@@ -163,6 +164,29 @@
             </div>
           </div>
         </div>
+
+        <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;lux&quot;]">
+          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+            <div class="product-item">
+              <!-- filter image -->
+              <img class="rounded card-img-top" src="images/portfolio/21.jpg" alt="post-thumb">
+              <div class="product-overlay">
+                <div class="product-info">
+                  <!-- filter image content -->
+                  <h4 class="product-name">GLAMPING</h4>
+                  <h4 class="new-price">PANSHET</h4>
+                </div>
+              </div>
+              <div class="product-info-mobile">
+                <h5 class="product-name">GLAMPING</h5>
+                <div class="product-price">
+                  <p>Panshet</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
         <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;ele&quot;]">
           <div class="position-relative rounded hover-wrapper">
