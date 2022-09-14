@@ -237,8 +237,17 @@ a:hover {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+  font-family: "Playfair Display", serif;
 }
+
+@media (max-width: 767px) {
+  .h2{
+    font-size:22px;
+  }
+}
+
+
 
 .section-title h2 {
   font-size: 32px;
@@ -248,14 +257,14 @@ a:hover {
   color: #000000;
 }
 
-.section-title h2::before,
+/* .section-title h2::before,
 .section-title h2::after {
   content: "";
   width: 50px;
   height: 2px;
   background: #000000;
   display: inline-block;
-}
+} */
 
 .section-title h2::before {
   margin: 0 15px 10px 0;
