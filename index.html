@@ -421,7 +421,7 @@
         <div class="col-lg-12 mx-auto text-center">
           <br>
           <br>
-          <button href="blog.html" class="btn btn-secondary"> SEE MORE PRODUCTS </button>
+         <a href="./blog.html" class="btn btn-secondary">MORE PRODUCTS</a>
         </div>
 
       </div>
@@ -513,7 +513,8 @@
         <br>
         <br>
         <!-- <button><a href="portfolio.html" class="btn btn-transparent">SEE MORE PROJECTS</a></button> -->
-        <button href="portfolio.html" class="btn btn-secondary"> SEE MORE PROJECTS </button>
+        <!-- <button href="./portfolio.html" class="btn btn-secondary"> SEE MORE PROJECTS </button> -->
+        <a href="./portfolio.html" class="btn btn-primary">SEE MORE PROJECTS</a>
 
       </div>
 
@@ -523,8 +524,8 @@
 
   </section>
 
-    <!-- testimonial -->
-    <section class="section bg-primary position-relative testimonial-bg-shapes"
+  <!-- testimonial -->
+  <section class="section bg-primary position-relative testimonial-bg-shapes"
     style="background-image: './images/test.png';">
     <div class="container">
       <div class="row">
@@ -616,7 +617,8 @@
         <div class="col-lg-8 mx-auto">
           <div class="bg-white rounded text-center p-5 shadow-down">
             <h4 class="mb-80">FEEL FREE TO CONTACT US.</h4>
-            <form action="#" class="row">
+            <form id="myForm" class="row" method="POST"
+              action="https://script.google.com/macros/s/AKfycbyP1Mjjd-s1TccOqkzbq9bFN2BGy2J8jMyxsW0euU0/dev">
               <div class="col-md-12">
                 <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4"
                   required>
@@ -634,12 +636,71 @@
                   required></textarea>
               </div>
               <div class="col-lg-6 col-10 mx-auto">
-                <button class="btn btn-primary w-100">send</button>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+                    onclick="submitForm()">SUBMIT</button>
+                </div>
+
+
+                <script>
+
+                  const scriptURL = 'https://script.google.com/macros/s/AKfycbyP1Mjjd-s1TccOqkzbq9bFN2BGy2J8jMyxsW0euU0/dev'
+                  const form = document.forms['submit-to-google-sheet']
+
+                  form.addEventListener('submit', e => {
+                    e.preventDefault()
+                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                      .then(response => console.log('Success!', response))
+                      .catch(error => console.error('Error!', error.message))
+                  })
+
+                  window.addEventListener("load", function () {
+                    const form = document.getElementById('googleform2');
+                    form.addEventListener("submit", function (e) {
+                      e.preventDefault();
+                      const data = new FormData(form);
+                      const action = e.target.action;
+                      fetch(action, {
+                        method: 'POST',
+                        body: data,
+                      })
+                        .then(() => {
+                          window.location.href = '/';
+                        })
+                    });
+                  });
+                </script>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                  aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title ml-2" id="exampleModalLabel">Eco-Vastu
+                          Builders
+                        </h5>
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Thank You For Connecting Us.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </form>
           </div>
+          </form>
         </div>
       </div>
+    </div>
     </div>
   </section>
   <!-- /contact -->
@@ -714,8 +775,8 @@
 
 
           <form class="appointment-form eco-animate" id="googleform2"
-            action="https://script.google.com/macros/s/AKfycbxk3HI5cRPb0NA4IOSc8cg1minfnLKhW7cP6JUUmUBVw055ZNWJbxQMiOp7moTXlwN52Q/exec"
-            method="post" data-email="shubhamadawale2210@gmail.com">
+            action="https://script.google.com/macros/s/AKfycby4mqfTR2ixgn8pvWgBaAMz7MR1ZP1x5Nof8aNpBGa-vVBKEGx2HNDdUs_MEWx4qJK1Pw/exec"
+            method="POST" data-email="shubhamadawale2210@gmail.com">
 
             <h3>Request Quote</h3>
             <div class="">
@@ -756,7 +817,8 @@
                 <button type="submit" class="btn btn-primary py-3 px-5"> Submit</button>
               </div>
             </div>
-            <!-- <script>
+            <script>
+
               window.addEventListener("load", function () {
                 const form = document.getElementById('googleform2');
                 form.addEventListener("submit", function (e) {
@@ -773,7 +835,7 @@
                 });
               });
 
-            </script> -->
+            </script>
           </form>
         </div>
       </div>
@@ -791,6 +853,9 @@
 
   <!-- Main Script -->
   <script src="js/script.js"></script>
+
+
+
 
 </body>
 
