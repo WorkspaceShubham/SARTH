@@ -52,20 +52,23 @@
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="blog.html">Products</a>
+            <a class="nav-link" href="blog.html">PRODUCTS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
           </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li> -->
           <li class="nav-item">
             <!-- <a class="nav-link" href="contact.html">Contact</a> -->
-            <a class="btn btn-light btn-sm mb-1" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
+            <a class="btn btn-light btn-sm mb-1" href="#contact">ENQUIRE
               NOW</a>
           </li>
         </ul>
@@ -370,7 +373,7 @@
 
 
   <!-- contact -->
-  <section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
+  <section class="section section-on-footer" id="contact" data-background="images/backgrounds/bg-dots.png">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
@@ -378,8 +381,10 @@
         </div>
         <div class="col-lg-8 mx-auto">
           <div class="bg-white rounded text-center p-5 shadow-down">
-            <h4 class="mb-80">Contact Form</h4>
-            <form action="#" class="row">
+            <h4 class="mb-80">FEEL FREE TO CONTACT US.</h4>
+
+            <form id="form-contact" name="rvcasole-formresponses" class="row" method="POST"
+              action="https://script.google.com/macros/s/AKfycbzYLElRk9aXGV9oK1xnXEEt_sK1D-TLJGn4u8WDfJdxakXvhQTiVQbC3e7SOua6bheW/exec">
               <div class="col-md-12">
                 <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4"
                   required>
@@ -397,12 +402,70 @@
                   required></textarea>
               </div>
               <div class="col-lg-6 col-10 mx-auto">
-                <button class="btn btn-primary w-100">send</button>
+                <div class="form-group">
+                  <button type="submit" id="submit" class="btn btn-primary" data-toggle="modal"
+                    data-target="#exampleModal">SUBMIT</button>
+                </div>
+
+
+                <script>
+
+                  const scriptURL = 'https://script.google.com/macros/s/AKfycbzYLElRk9aXGV9oK1xnXEEt_sK1D-TLJGn4u8WDfJdxakXvhQTiVQbC3e7SOua6bheW/exec'
+                  const form = document.forms['rvcasole-formresponses']
+                  form.addEventListener('submit', e => {
+                    e.preventDefault()
+                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                      .then(response => document.getElementById('form-contact').reset())
+                      .catch(error => console.error('Error!', error.message))
+                  })
+
+                  window.addEventListener("load", function () {
+                    const form = document.getElementById('form-contact');
+                    form.addEventListener("submit", function (e) {
+                      e.preventDefault();
+                      const data = new FormData(form);
+                      const action = e.target.action;
+                      fetch(action, {
+                        method: 'POST',
+                        body: data,
+                      })
+                        .then(() => {
+                          window.location.href = '/';
+                        })
+                    });
+                  });
+                </script>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                  aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title ml-2" id="exampleModalLabel">Eco-Vastu
+                          Builders
+                        </h5>
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Thank You For Connecting Us.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </form>
           </div>
+          </form>
         </div>
       </div>
+    </div>
     </div>
   </section>
   <!-- /contact -->
@@ -443,80 +506,80 @@
   <!-- /footer -->
 
 
-</div><a href="#" class="vanillatop"></a>
-<script>
-  document.addEventListener("DOMContentLoaded", function () { var t = document.querySelector(".vanillatop"); function e(n) { var o = window.pageYOffset, a = Math.floor(Date.now()); !function t() { Math.easeInOutQuad = function (t) { return t < .5 ? 2 * t * t : (4 - 2 * t) * t - 1 }; var e = Math.min(1, (Math.floor(Date.now()) - a) / n); window.scroll(0, Math.ceil(Math.easeInOutQuad(e) * (0 - o) + o)), 0 === window.pageYOffset && callback(), requestAnimationFrame(t) }() } t.addEventListener("click", function () { window.requestAnimationFrame ? e(700) : window.scrollTo(0, 0) }), window.addEventListener("scroll", function () { 280 < document.body.scrollTop || 280 < document.documentElement.scrollTop ? (t.removeAttribute("style", "transform: translateX(120px);"), t.setAttribute("style", "transform: translateX(0);")) : (t.removeAttribute("style", "transform: translateX(0);"), t.setAttribute("style", "transform: translateX(120px);")) }) });
-</script>
+  </div><a href="#" class="vanillatop"></a>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () { var t = document.querySelector(".vanillatop"); function e(n) { var o = window.pageYOffset, a = Math.floor(Date.now()); !function t() { Math.easeInOutQuad = function (t) { return t < .5 ? 2 * t * t : (4 - 2 * t) * t - 1 }; var e = Math.min(1, (Math.floor(Date.now()) - a) / n); window.scroll(0, Math.ceil(Math.easeInOutQuad(e) * (0 - o) + o)), 0 === window.pageYOffset && callback(), requestAnimationFrame(t) }() } t.addEventListener("click", function () { window.requestAnimationFrame ? e(700) : window.scrollTo(0, 0) }), window.addEventListener("scroll", function () { 280 < document.body.scrollTop || 280 < document.documentElement.scrollTop ? (t.removeAttribute("style", "transform: translateX(120px);"), t.setAttribute("style", "transform: translateX(0);")) : (t.removeAttribute("style", "transform: translateX(0);"), t.setAttribute("style", "transform: translateX(120px);")) }) });
+  </script>
 
 
-<!-- Side Bar -->
-<div class="icon-bar">
-  <a href="tel:+919920034341" class="phone"><i class="fa fa-phone"></i></a>
-  <a href="https://wa.me/919920034341" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
-</div>
+  <!-- Side Bar -->
+  <div class="icon-bar">
+    <a href="tel:+919920034341" class="phone"><i class="fa fa-phone"></i></a>
+    <a href="https://wa.me/919920034341" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+  </div>
 
-<!-- ? -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true" id="myModal">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close d-flex align-items-center justify-content-center" data-dismiss="modal"
-          aria-label="Close">
-          <span aria-hidden="true" class="fa fa-close"></span>
-        </button>
-      </div>
-      <div class="modal-body p-4 p-md-5">
+  <!-- ? -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true" id="myModal">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close d-flex align-items-center justify-content-center" data-dismiss="modal"
+            aria-label="Close">
+            <span aria-hidden="true" class="fa fa-close"></span>
+          </button>
+        </div>
+        <div class="modal-body p-4 p-md-5">
 
-        <!-- <form method="POST" id="googleform2"
+          <!-- <form method="POST" id="googleform2"
       action="https://script.google.com/macros/s/AKfycbwD70XyalgiMB0qVltawuC-MNAMYLiLjhGR8WaJzaVLDEKQ4yNWmtObODFuD37Xp8ZPlA/exec"
       class="appointment-form eco-animate"> -->
 
 
-        <form class="appointment-form eco-animate" id="googleform2"
-          action="https://script.google.com/macros/s/AKfycbxk3HI5cRPb0NA4IOSc8cg1minfnLKhW7cP6JUUmUBVw055ZNWJbxQMiOp7moTXlwN52Q/exec"
-          method="post" data-email="shubhamadawale2210@gmail.com">
+          <form class="appointment-form eco-animate" id="googleform2"
+            action="https://script.google.com/macros/s/AKfycbxk3HI5cRPb0NA4IOSc8cg1minfnLKhW7cP6JUUmUBVw055ZNWJbxQMiOp7moTXlwN52Q/exec"
+            method="post" data-email="shubhamadawale2210@gmail.com">
 
-          <h3>Request Quote</h3>
-          <div class="">
-            <div class="form-group">
-              <input type="text" name="Name" class="form-control" placeholder="First Name">
+            <h3>Request Quote</h3>
+            <div class="">
+              <div class="form-group">
+                <input type="text" name="Name" class="form-control" placeholder="First Name">
+              </div>
+              <div class="form-group">
+                <input type="email" name="Email" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="text" name="Phone" class="form-control" placeholder="Phone">
+              </div>
             </div>
-            <div class="form-group">
-              <input type="email" name="Email" class="form-control" placeholder="Email">
-            </div>
-            <div class="form-group">
-              <input type="text" name="Phone" class="form-control" placeholder="Phone">
-            </div>
-          </div>
-          <div class="">
-            <div class="form-group">
-              <div class="form-field">
-                <div class="select-wrap">
-                  <!-- <div class="icon"><span class="fa fa-chevron-down"></span></div> -->
-                  <select name="Selection" id="" class="form-control">
-                    <option value="Not Selected">Select Categories</option>
-                    <option value="Luxurious Resort Cottages">Luxurious Resort Cottages</option>
-                    <option value="Elevated Cottages">Elevated Cottages</option>
-                    <option value="Glamp Hut">Glamp Hut</option>
-                    <option value="Glass- Cube">Glass- Cube</option>
-                    <option value="Glass- Cube">Glass- Cube</option>
-                    <option value="Container units">Container units</option>
-                    <option value="Triangular Huts">Triangular Huts</option>
-                  </select>
+            <div class="">
+              <div class="form-group">
+                <div class="form-field">
+                  <div class="select-wrap">
+                    <!-- <div class="icon"><span class="fa fa-chevron-down"></span></div> -->
+                    <select name="Selection" id="" class="form-control">
+                      <option value="Not Selected">Select Categories</option>
+                      <option value="Luxurious Resort Cottages">Luxurious Resort Cottages</option>
+                      <option value="Elevated Cottages">Elevated Cottages</option>
+                      <option value="Glamp Hut">Glamp Hut</option>
+                      <option value="Glass- Cube">Glass- Cube</option>
+                      <option value="Glass- Cube">Glass- Cube</option>
+                      <option value="Container units">Container units</option>
+                      <option value="Triangular Huts">Triangular Huts</option>
+                    </select>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="">
-            <div class="form-group">
-              <textarea name="Message" id="" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
+            <div class="">
+              <div class="form-group">
+                <textarea name="Message" id="" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary py-3 px-5"> Submit</button>
+              </div>
             </div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-primary py-3 px-5"> Submit</button>
-            </div>
-          </div>
-          <!-- <script>
+            <!-- <script>
           window.addEventListener("load", function () {
             const form = document.getElementById('googleform2');
             form.addEventListener("submit", function (e) {
@@ -534,11 +597,11 @@
           });
 
         </script> -->
-        </form>
+          </form>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 
 

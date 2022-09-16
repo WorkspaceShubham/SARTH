@@ -156,32 +156,44 @@
 
 
 
+    // ????????????????????
+
+
+	// CLEAR fORM
+
+	const btn = document.getElementById('form-contact');
+
+	btn.addEventListener('click', function handleClick(event) {
+
+		event.preventDefault();
+
+		const nameInput = document.getElementsByName('name');
+		const phoneInput = document.getElementsByName('phone');
+		const mailInput = document.getElementsByName('email');
+		// const subjectInput = document.getElementsByName('message');
+		const messageInput = document.getElementsByName('message');
+
+
+
+
+
+		// Send value to server
+		console.log(nameInput.value);
+		console.log(phoneInput.value);
+		console.log(mailInput.value);
+		// console.log(subjectInput.value);
+		console.log(messageInput.value);
+
+
+		// 👇️ clear input field
+		nameInput.value = '';
+		phoneInput.value = '';
+		mailInput.value = '';
+		// subjectInput.value = '';
+		messageInput.value = '';
+
+	});
+
+
+
 })(jQuery);
-
-
-$(document).ready(function(){
-
-    $(".filter-button").click(function(){
-        var value = $(this).attr('data-filter');
-
-        if(value == "all")
-        {
-            //$('.filter').removeClass('hidden');
-            $('.filter').show('1000');
-        }
-        else
-        {
-//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-            $(".filter").not('.'+value).hide('3000');
-            $('.filter').filter('.'+value).show('3000');
-
-        }
-    });
-
-    if ($(".filter-button").removeClass("active")) {
-$(this).removeClass("active");
-}
-$(this).addClass("active");
-
-});s

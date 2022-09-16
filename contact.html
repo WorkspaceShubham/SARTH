@@ -51,20 +51,23 @@
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="blog.html">Products</a>
+            <a class="nav-link" href="blog.html">PRODUCTS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
           </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li> -->
           <li class="nav-item">
             <!-- <a class="nav-link" href="contact.html">Contact</a> -->
-            <a class="btn btn-light btn-sm mb-1" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
+            <a class="btn btn-light btn-sm mb-1"  href="#contact">ENQUIRE
               NOW</a>
           </li>
         </ul>
@@ -94,7 +97,7 @@
 <!-- /page title -->
 
   <!-- contact -->
-  <section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
+  <section class="section section-on-footer" id="contact" data-background="images/backgrounds/bg-dots.png">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
@@ -102,8 +105,10 @@
         </div>
         <div class="col-lg-8 mx-auto">
           <div class="bg-white rounded text-center p-5 shadow-down">
-            <h4 class="mb-80">Contact Form</h4>
-            <form action="#" class="row">
+            <h4 class="mb-80">FEEL FREE TO CONTACT US.</h4>
+
+            <form id="form-contact" name="rvcasole-formresponses" class="row" method="POST"
+              action="https://script.google.com/macros/s/AKfycbzYLElRk9aXGV9oK1xnXEEt_sK1D-TLJGn4u8WDfJdxakXvhQTiVQbC3e7SOua6bheW/exec">
               <div class="col-md-12">
                 <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4"
                   required>
@@ -121,12 +126,70 @@
                   required></textarea>
               </div>
               <div class="col-lg-6 col-10 mx-auto">
-                <button class="btn btn-primary w-100">send</button>
+                <div class="form-group">
+                  <button type="submit" id="submit" class="btn btn-primary" data-toggle="modal"
+                    data-target="#exampleModal">SUBMIT</button>
+                </div>
+
+
+                <script>
+
+                  const scriptURL = 'https://script.google.com/macros/s/AKfycbzYLElRk9aXGV9oK1xnXEEt_sK1D-TLJGn4u8WDfJdxakXvhQTiVQbC3e7SOua6bheW/exec'
+                  const form = document.forms['rvcasole-formresponses']
+                  form.addEventListener('submit', e => {
+                    e.preventDefault()
+                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                      .then(response => document.getElementById('form-contact').reset())
+                      .catch(error => console.error('Error!', error.message))
+                  })
+
+                  window.addEventListener("load", function () {
+                    const form = document.getElementById('form-contact');
+                    form.addEventListener("submit", function (e) {
+                      e.preventDefault();
+                      const data = new FormData(form);
+                      const action = e.target.action;
+                      fetch(action, {
+                        method: 'POST',
+                        body: data,
+                      })
+                        .then(() => {
+                          window.location.href = '/';
+                        })
+                    });
+                  });
+                </script>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                  aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title ml-2" id="exampleModalLabel">Eco-Vastu
+                          Builders
+                        </h5>
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Thank You For Connecting Us.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </form>
           </div>
+          </form>
         </div>
       </div>
+    </div>
     </div>
   </section>
   <!-- /contact -->
