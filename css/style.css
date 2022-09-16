@@ -853,7 +853,9 @@ blockquote {
 }
 
 .page-title-alt {
+  /* padding: 350px 0 70px; */
   padding: 350px 0 70px;
+
 }
 
 .border-thick {
@@ -915,7 +917,7 @@ blockquote {
 
 .page-title {
   /* padding: 250px 0 150px; */
-  padding: 155px 0 86px;
+  padding: 100px 0 86px;
 
 }
 
@@ -1823,3 +1825,6 @@ hr.rounded {
 .ts-team-content-classic .team-social-icons a i:hover {
   color: #ffb600;
 }
+
+
+
