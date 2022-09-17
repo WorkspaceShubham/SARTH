@@ -45,8 +45,8 @@
 
 <!-- Side Bar -->
 <div class="icon-bar">
-  <a href="tel:+919920034341" class="phone"><i class="fa fa-phone"></i></a>
-  <a href="https://wa.me/919920034341" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+  <a href="tel:+918806488181" class="phone"><i class="fa fa-phone"></i></a>
+  <a href="https://wa.me/8806488181" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
 </div>
 
 <!-- ? -->
@@ -345,17 +345,19 @@
 <!-- /blog -->
 
   <!-- contact -->
-  <section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
+  <section class="section section-on-footer" id="contact" data-background="images/backgrounds/bg-dots.png">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h2 class="section-title">PENDING TO DESIGN</h2>
+          <h2 class="section-title">Coming up with your dream stay</h2>
         </div>
         <div class="col-lg-8 mx-auto">
           <div class="bg-white rounded text-center p-5 shadow-down">
-            <h4 class="mb-80">Contact Form</h4>
-            <form action="#" class="row">
-              <div class="col-md-12">
+            <h4 class="mb-80">FEEL FREE TO CONTACT US.</h4>
+
+            <form id="form-contact" name="rvcasole-formresponses" class="row" method="POST"
+              action="https://script.google.com/macros/s/AKfycbzYLElRk9aXGV9oK1xnXEEt_sK1D-TLJGn4u8WDfJdxakXvhQTiVQbC3e7SOua6bheW/exec">
+              <div class="col-md-6">
                 <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4"
                   required>
               </div>
@@ -367,17 +369,92 @@
                 <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4"
                   required>
               </div>
+              <div  class="col-md-6">
+                <div class="form-group">
+                  <div class="form-field">
+                    <div class="select-wrap">
+                      <!-- <div class="icon"><span class="fa fa-chevron-down"></span></div> -->
+                      <select name="Selection" id="" class="form-control">
+                        <option value="Not Selected">Select Categories</option>
+                        <option value="MODULAR COTTAGES">MODULAR COTTAGES</option>
+                        <option value="CONTAINER CUBE">CONTAINER CUBE</option>
+                        <option value="GLAMP TENT">GLAMP TENT</option>
+                        <option value="UNIQUE STRUCTURE">UNIQUE STRUCTURE</option>
+                        <option value="OTHER">OTHER</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="col-12">
                 <textarea name="message" id="message" class="form-control px-0 mb-4" placeholder="Type Message Here"
                   required></textarea>
               </div>
               <div class="col-lg-6 col-10 mx-auto">
-                <button class="btn btn-primary w-100">send</button>
+                <div class="form-group">
+                  <button type="submit" id="submit" class="btn btn-primary" data-toggle="modal"
+                    data-target="#exampleModal">SUBMIT</button>
+                </div>
+
+
+                <script>
+
+                  const scriptURL = 'https://script.google.com/macros/s/AKfycbzYLElRk9aXGV9oK1xnXEEt_sK1D-TLJGn4u8WDfJdxakXvhQTiVQbC3e7SOua6bheW/exec'
+                  const form = document.forms['rvcasole-formresponses']
+                  form.addEventListener('submit', e => {
+                    e.preventDefault()
+                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                      .then(response => document.getElementById('form-contact').reset())
+                      .catch(error => console.error('Error!', error.message))
+                  })
+
+                  window.addEventListener("load", function () {
+                    const form = document.getElementById('form-contact');
+                    form.addEventListener("submit", function (e) {
+                      e.preventDefault();
+                      const data = new FormData(form);
+                      const action = e.target.action;
+                      fetch(action, {
+                        method: 'POST',
+                        body: data,
+                      })
+                        .then(() => {
+                          window.location.href = '/';
+                        })
+                    });
+                  });
+                </script>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                  aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title ml-2" id="exampleModalLabel">Eco-Vastu
+                          Builders
+                        </h5>
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Thank You For Connecting Us.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </form>
           </div>
+          </form>
         </div>
       </div>
+    </div>
     </div>
   </section>
   <!-- /contact -->

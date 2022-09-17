@@ -48,8 +48,6 @@
     document.addEventListener("DOMContentLoaded", function () { var t = document.querySelector(".vanillatop"); function e(n) { var o = window.pageYOffset, a = Math.floor(Date.now()); !function t() { Math.easeInOutQuad = function (t) { return t < .5 ? 2 * t * t : (4 - 2 * t) * t - 1 }; var e = Math.min(1, (Math.floor(Date.now()) - a) / n); window.scroll(0, Math.ceil(Math.easeInOutQuad(e) * (0 - o) + o)), 0 === window.pageYOffset && callback(), requestAnimationFrame(t) }() } t.addEventListener("click", function () { window.requestAnimationFrame ? e(700) : window.scrollTo(0, 0) }), window.addEventListener("scroll", function () { 280 < document.body.scrollTop || 280 < document.documentElement.scrollTop ? (t.removeAttribute("style", "transform: translateX(120px);"), t.setAttribute("style", "transform: translateX(0);")) : (t.removeAttribute("style", "transform: translateX(0);"), t.setAttribute("style", "transform: translateX(120px);")) }) });
   </script>
 
-
-
 <header class="navigation fixed-top">
   <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand font-tertiary mb-1" href="/"><img src="images/111.png" alt="Myself"></a>
@@ -72,13 +70,10 @@
         <li class="nav-item">
           <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#contact">CONTACT</a>
-        </li> -->
+
         <li class="nav-item">
           <!-- <a class="nav-link" href="contact.html">Contact</a> -->
-          <a class="btn btn-light btn-sm mb-1"  href="#contact">ENQUIRE
-            NOW</a>
+          <a class="btn btn-light btn-sm mb-1" href="#contact">CONTACT US</a>
         </li>
       </ul>
     </div>
@@ -114,37 +109,38 @@
         <div class="col-12 text-center">
           <div class="shuffle-btn-group col-12">
             <!-- <label class="active" for="all"> -->
-            <label class="btn btn-sm btn-outline-dark active active-bg-tr m">
-              <input type="radio" class="btn btn-" name="shuffle-filter" id="all" value="all" checked="checked"> Show All
-            </label>
+            <!-- <label class="btn btn-sm btn-outline-dark active active-bg-tr m">
+              <input type="radio" class="btn btn-" name="shuffle-filter" id="all" value="all" checked="checked"> Show
+              All
+            </label> -->
             <!-- <label for="lux"> -->
             <label class="btn btn-sm btn btn-outline-dark">
-              <input type="radio" name="shuffle-filter" id="lux" value="lux">Luxurious
+              <input type="radio" name="shuffle-filter" id="pm" value="pm">MODULAR COTTAGES
             </label>
             <!-- <label for="elevated"> -->
             <label class="btn btn-sm btn btn-outline-dark">
-              <input type="radio" name="shuffle-filter" id="elevated" value="elevated">Elevated Cottage
+              <input type="radio" name="shuffle-filter" id="con" value="con">CONTAINER CUBES
             </label>
             <!-- <label for="pm"> -->
             <label class="btn btn-sm btn btn-outline-dark">
-              <input type="radio" name="shuffle-filter" id="pm" value="pm">Pre-Fab Modular
+              <input type="radio" name="shuffle-filter" id="gh" value="gh">GLAMP TENT
             </label>
             <!-- <label for="gc"> -->
-            <label class="btn btn-sm btn btn-outline-dark">
+            <!-- <label class="btn btn-sm btn btn-outline-dark">
               <input type="radio" name="shuffle-filter" id="gc" value="gc">Glass Cube
-            </label>
+            </label> -->
             <!-- <label for="trio"> -->
             <label class="btn btn-sm btn btn-outline-dark">
-              <input type="radio" name="shuffle-filter" id="trio" value="trio">Triangular
+              <input type="radio" name="shuffle-filter" id="trio" value="trio">TRIANGLE COTTAGES
             </label>
             <!-- <label for="con"> -->
             <label class="btn btn-sm btn btn-outline-dark">
-              <input type="radio" name="shuffle-filter" id="con" value="con">Container
+              <input type="radio" name="shuffle-filter" id="us" value="us">UNIQUE STRUCTURES
             </label>
 
             <!-- <label for="con"> -->
             <label class="btn btn-sm btn-outline-dark">
-              <input type="radio" name="shuffle-filter" id="gh" value="gh">Glamp Hut
+              <input type="radio" name="shuffle-filter" id="ob" value="ob">OUT OF THE BOX
             </label>
           </div><!-- project filter end -->
 
@@ -154,80 +150,22 @@
 
             <div class="col-1 shuffle-sizer"></div>
 
-            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;lux&quot;]">
-              <div class="project-img-container product-item portfolio-item">
-                <a class="gallery-popup " href="images/blog/lux1.jpg" target="_">
-                  <img class="img-fluid  rounded" src="images/blog/lux1.jpg" alt="project-image">
-                  <div class="product-overlay">
-                    <div class="product-info">
-                      <!-- filter image content -->
-                      <h4 class="product-name">ELEVATED TENT</h4>
-                      <h4 class="new-price">PAWANA CAMPS</h4>
+            <div class="col-lg-4 col-md-12 shuffle-item text-center" data-groups="[&quot;ob&quot;]">
 
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
+                <h2 class="section-title">Coming up with your dream stay</h2>
 
-
-
-            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;lux&quot;]">
-              <div class="project-img-container portfolio-item">
-                <a class="gallery-popup" href="images/blog/lux2.jpg">
-                  <img class="img-fluid" src="images/blog/lux2.jpg" alt="project-image">
-                </a>
-              </div>
 
             </div>
-
-            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;lux&quot;]">
-
-              <div class="project-img-container portfolio-item">
-                <a class="gallery-popup" href="images/blog/lux3.jpg">
-                  <img class="img-fluid" src="images/blog/lux3.jpg" alt="project-image">
-                </a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;lux&quot;]">
-              <div class="project-img-container portfolio-item">
-                <a class="gallery-popup" href="images/blog/lux4.jpg">
-                  <img class="img-fluid" src="images/blog/lux4.jpg" alt="project-image">
-                </a>
-              </div>
-            </div>
-
-
-            <!-- Elevated -->
-
-            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;elevated&quot;]">
-              <div class="project-img-container portfolio-item">
-                <a class="gallery-popup" href="images/blog/elevated.jpeg">
-                  <img class="img-fluid" src="images/blog/elevated.jpeg" alt="project-image">
-                </a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;elevated&quot;]">
-              <div class="project-img-container portfolio-item">
-                <a class="gallery-popup" href="images/blog/elevated 2.jpeg">
-                  <img class="img-fluid" src="images/blog/elevated 2.jpeg" alt="project-image">
-                </a>
-              </div>
-            </div>
-
 
             <!-- Pre Fab Modular -->
+
             <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;pm&quot;]">
               <div class="project-img-container portfolio-item">
-                <a class="gallery-popup" href="images/blog/pm.jpg">
-                  <img class="img-fluid" src="images/blog/pm.jpg" alt="project-image">
+                <a class="gallery-popup" href="images/blog/modular.jpg">
+                  <img class="img-fluid" src="images/blog/modular.jpg" alt="project-image">
                 </a>
               </div>
             </div>
-
-            <!-- PM Modular -->
 
             <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;pm&quot;]">
               <div class="project-img-container portfolio-item">
@@ -236,6 +174,7 @@
                 </a>
               </div>
             </div>
+
 
             <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;pm&quot;]">
               <div class="project-img-container portfolio-item">
@@ -248,43 +187,7 @@
             <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;pm&quot;]">
               <div class="project-img-container portfolio-item">
                 <a class="gallery-popup" href="images/blog/pm3.jpg">
-                  <img class="img-fluid " src="images/blog/pm3.jpg" alt="project-image">
-                </a>
-              </div>
-            </div>
-
-
-            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;pm&quot;]">
-              <div class="project-img-container portfolio-item">
-                <a class="gallery-popup" href="images/blog/pm4.jpg">
-                  <img class="img-fluid" src="images/blog/pm4.jpg" alt="project-image">
-                </a>
-              </div>
-            </div>
-
-
-            <!-- Glass Cube -->
-
-            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gc&quot;]">
-              <div class="project-img-container portfolio-item">
-                <a class="gallery-popup" href="images/blog/gc-3.jpg">
-                  <img class="img-fluid" src="images/blog/gc-3.jpg" alt="project-image">
-                </a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gc&quot;]">
-              <div class="project-img-container portfolio-item">
-                <a class="gallery-popup" href="images/blog/gc.webp">
-                  <img class="img-fluid" src="images/blog/gc.webp" alt="project-image">
-                </a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gc&quot;]">
-              <div class="project-img-container portfolio-item">
-                <a class="gallery-popup" href="images/blog/gc1.jpg">
-                  <img class="img-fluid" src="images/blog/gc1.jpg" alt="project-image">
+                  <img class="img-fluid" src="images/blog/pm3.jpg" alt="project-image">
                 </a>
               </div>
             </div>
@@ -294,8 +197,8 @@
 
             <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;trio&quot;]">
               <div class="project-img-container portfolio-item">
-                <a class="gallery-popup" href="images/blog/trio1.png">
-                  <img class="img-fluid" src="images/blog/trio1.png" alt="project-image">
+                <a class="gallery-popup" href="images/blog/triangl.jpg">
+                  <img class="img-fluid" src="images/blog/triangl.jpg" alt="project-image">
                 </a>
               </div>
             </div>
@@ -303,17 +206,8 @@
 
             <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;trio&quot;]">
               <div class="project-img-container portfolio-item">
-                <a class="gallery-popup" href="images/blog/trio 3.jpg">
-                  <img class="img-fluid" src="images/blog/trio 3.jpg" alt="project-image">
-                </a>
-              </div>
-            </div>
-
-
-            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;trio&quot;]">
-              <div class="project-img-container portfolio-item">
-                <a class="gallery-popup" href="images/blog/trio 2.png">
-                  <img class="img-fluid" src="images/blog/trio 2.png" alt="project-image">
+                <a class="gallery-popup" href="images/blog/trio2.jpg">
+                  <img class="img-fluid" src="images/blog/trio2.jpg" alt="project-image">
                 </a>
               </div>
             </div>
@@ -325,22 +219,6 @@
               <div class="project-img-container portfolio-item">
                 <a class="gallery-popup" href="images/blog/con1.jpg">
                   <img class="img-fluid" src="images/blog/con1.jpg" alt="project-image">
-                </a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
-              <div class="project-img-container portfolio-item">
-                <a class="gallery-popup" href="images/blog/con2.jpg">
-                  <img class="img-fluid" src="images/blog/con2.jpg" alt="project-image">
-                </a>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
-              <div class="project-img-container portfolio-item">
-                <a class="gallery-popup" href="images/blog/con3.jpg">
-                  <img class="img-fluid" src="images/blog/con3.jpg" alt="project-image">
                 </a>
               </div>
             </div>
@@ -363,23 +241,47 @@
 
             <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
               <div class="project-img-container portfolio-item">
-                <a class="gallery-popup" href="images/blog/con6.jpg">
-                  <img class="img-fluid" src="images/blog/con6.jpg" alt="project-image">
-                </a>
-              </div>
-            </div>
-
-
-            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
-              <div class="project-img-container portfolio-item">
                 <a class="gallery-popup" href="images/blog/con7.jpg">
                   <img class="img-fluid" src="images/blog/con7.jpg" alt="project-image">
                 </a>
               </div>
             </div>
 
+            <!-- <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
+              <div class="project-img-container portfolio-item">
+                <a class="gallery-popup" href="images/blog/con8.jpg">
+                  <img class="img-fluid" src="images/blog/con8.jpg" alt="project-image">
+                </a>
+              </div>
+            </div> -->
+
 
             <!-- Glamp Hut -->
+
+            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gh&quot;]">
+              <div class="project-img-container portfolio-item">
+                <a class="gallery-popup" href="images/portfolio/camps.jpg">
+                  <img class="img-fluid" src="images/portfolio/camps.jpg" alt="project-image">
+                </a>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gh&quot;]">
+              <div class="project-img-container portfolio-item">
+                <a class="gallery-popup" href="images/blog/gt1.jpeg">
+                  <img class="img-fluid" src="images/blog/gt1.jpeg" alt="project-image">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gh&quot;]">
+              <div class="project-img-container portfolio-item">
+                <a class="gallery-popup" href="images/blog/gt2.jpeg">
+                  <img class="img-fluid" src="images/blog/gt2.jpeg" alt="project-image">
+                </a>
+              </div>
+            </div>
 
             <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gh&quot;]">
               <div class="project-img-container portfolio-item">
@@ -405,6 +307,42 @@
               </div>
             </div>
 
+
+
+            <!-- Unique Stays -->
+            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;us&quot;]">
+              <div class="project-img-container portfolio-item">
+                <a class="gallery-popup" href="images/blog/us1.jpg">
+                  <img class="img-fluid" src="images/blog/us1.jpg" alt="project-image">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;us&quot;]">
+              <div class="project-img-container portfolio-item">
+                <a class="gallery-popup" href="images/blog/us2.jpg">
+                  <img class="img-fluid" src="images/blog/us2.jpg" alt="project-image">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;us&quot;]">
+              <div class="project-img-container portfolio-item">
+                <a class="gallery-popup" href="images/blog/us3.jpg">
+                  <img class="img-fluid" src="images/blog/us3.jpg" alt="project-image">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;us&quot;]">
+              <div class="project-img-container portfolio-item">
+                <a class="gallery-popup" href="images/blog/us4.webp">
+                  <img class="img-fluid" src="images/blog/us4.webp" alt="project-image">
+                </a>
+              </div>
+            </div>
+
+
           </div><!-- shuffle end -->
 
         </div>
@@ -428,7 +366,7 @@
 
             <form id="form-contact" name="rvcasole-formresponses" class="row" method="POST"
               action="https://script.google.com/macros/s/AKfycbzYLElRk9aXGV9oK1xnXEEt_sK1D-TLJGn4u8WDfJdxakXvhQTiVQbC3e7SOua6bheW/exec">
-              <div class="col-md-12">
+              <div class="col-md-6">
                 <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4"
                   required>
               </div>
@@ -439,6 +377,23 @@
               <div class="col-md-6">
                 <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4"
                   required>
+              </div>
+              <div  class="col-md-6">
+                <div class="form-group">
+                  <div class="form-field">
+                    <div class="select-wrap">
+                      <!-- <div class="icon"><span class="fa fa-chevron-down"></span></div> -->
+                      <select name="Selection" id="" class="form-control">
+                        <option value="Not Selected">Select Categories</option>
+                        <option value="MODULAR COTTAGES">MODULAR COTTAGES</option>
+                        <option value="CONTAINER CUBE">CONTAINER CUBE</option>
+                        <option value="GLAMP TENT">GLAMP TENT</option>
+                        <option value="UNIQUE STRUCTURE">UNIQUE STRUCTURE</option>
+                        <option value="OTHER">OTHER</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="col-12">
                 <textarea name="message" id="message" class="form-control px-0 mb-4" placeholder="Type Message Here"
@@ -549,11 +504,11 @@
   <!-- /footer -->
 
 
-  <!-- Side Bar -->
-  <div class="icon-bar">
-    <a href="tel:+919920034341" class="phone"><i class="fa fa-phone"></i></a>
-    <a href="https://wa.me/919920034341" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
-  </div>
+<!-- Side Bar -->
+<div class="icon-bar">
+  <a href="tel:+918806488181" class="phone"><i class="fa fa-phone"></i></a>
+  <a href="https://wa.me/8806488181" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+</div>
 
   <!-- ? -->
   <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
