@@ -364,7 +364,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;lux&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/lux1.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/lux1.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay  ">
                 <div class="hover-content">
                   <!-- <a class="btn btn-light btn-sm" data-target="#myModal">ENQUIRE NOW</a> -->
@@ -376,7 +376,7 @@
           </div>
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;lux&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/lux2.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/lux2.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -387,7 +387,7 @@
           </div>
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;lux&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/lux3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/lux3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -398,7 +398,7 @@
           </div>
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;lux&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/lux4.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/lux4.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -411,7 +411,7 @@
           <!-- elevated -->
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;ele&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/elevated.jpeg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/elevated.jpeg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -422,7 +422,7 @@
           </div>
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;ele&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/elevated 2.jpeg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/elevated 2.jpeg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -437,7 +437,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item illustration" data-groups="[&quot;pm&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/pm2.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/pm2.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -449,7 +449,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;pm&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/pm3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/pm3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -461,7 +461,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;pm&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/pm4.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/pm4.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -473,7 +473,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;pm&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/pm.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/pm.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -485,7 +485,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;pm&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/pm1.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/pm1.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -498,7 +498,7 @@
           <!-- Glass cube -->
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;gc&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/gc.webp" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/gc.webp" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -510,7 +510,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;gc&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/gc1.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/gc1.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -522,7 +522,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;gc&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/gc2.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/gc2.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -536,7 +536,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;tc&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/trio 2.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/trio 2.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -548,7 +548,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;tc&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/trio 3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/trio 3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -560,7 +560,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;tc&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/trio1.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/trio1.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -575,7 +575,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;con&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/con1.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/con1.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -587,7 +587,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;con&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/con2.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/con2.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -599,7 +599,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;con&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/con3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/con3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -611,7 +611,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;con&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/con4.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/con4.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -623,7 +623,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;con&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/con5.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/con5.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -635,7 +635,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;con&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/con6.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/con6.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -647,7 +647,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;con&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/con7.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/con7.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -661,7 +661,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;gh&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/glamp1.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/glamp1.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -673,7 +673,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;gh&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/glamp2.webp" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/glamp2.webp" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -685,7 +685,7 @@
 
           <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;gh&quot;]">
             <div class="position-relative rounded hover-wrapper">
-              <img src="images/blog/glamp3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="images/products/glamp3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -709,8 +709,8 @@
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;lux&quot;]">
         <div class="project-img-container product-item">
-          <a class="gallery-popup" href="images/blog/lux1.jpg" target="_">
-            <img class="img-fluid rounded" src="images/blog/lux1.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/lux1.jpg" target="_">
+            <img class="img-fluid rounded" src="images/products/lux1.jpg" alt="project-image">
             <div class="product-overlay">
               <div class="product-info">
                 <!-- filter image content -->
@@ -727,14 +727,14 @@
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;lux&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/lux2.jpg">
-            <img class="img-fluid" src="images/blog/lux2.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/lux2.jpg">
+            <img class="img-fluid" src="images/products/lux2.jpg" alt="project-image">
           </a>
         </div>
 
         <div class="project-img-container product-item">
-          <a class="gallery-popup" href="images/blog/lux2.jpg" target="_">
-            <img class="img-fluid rounded" src="images/blog/lux2.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/lux2.jpg" target="_">
+            <img class="img-fluid rounded" src="images/products/lux2.jpg" alt="project-image">
             <div class="product-overlay">
               <div class="product-info">
 
@@ -750,16 +750,16 @@
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;lux&quot;]">
 
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/lux3.jpg">
-            <img class="img-fluid" src="images/blog/lux3.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/lux3.jpg">
+            <img class="img-fluid" src="images/products/lux3.jpg" alt="project-image">
           </a>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;lux&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/lux4.jpg">
-            <img class="img-fluid" src="images/blog/lux4.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/lux4.jpg">
+            <img class="img-fluid" src="images/products/lux4.jpg" alt="project-image">
           </a>
         </div>
       </div>
@@ -769,16 +769,16 @@
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;elevated&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/elevated.jpeg">
-            <img class="img-fluid" src="images/blog/elevated.jpeg" alt="project-image">
+          <a class="gallery-popup" href="images/products/elevated.jpeg">
+            <img class="img-fluid" src="images/products/elevated.jpeg" alt="project-image">
           </a>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;elevated&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/elevated 2.jpeg">
-            <img class="img-fluid" src="images/blog/elevated 2.jpeg" alt="project-image">
+          <a class="gallery-popup" href="images/products/elevated 2.jpeg">
+            <img class="img-fluid" src="images/products/elevated 2.jpeg" alt="project-image">
           </a>
         </div>
       </div>
@@ -787,8 +787,8 @@
       <!-- Pre Fab Modular -->
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;pm&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/pm.jpg">
-            <img class="img-fluid" src="images/blog/pm.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/pm.jpg">
+            <img class="img-fluid" src="images/products/pm.jpg" alt="project-image">
           </a>
         </div>
       </div>
@@ -797,24 +797,24 @@
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;pm&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/pm1.jpg">
-            <img class="img-fluid" src="images/blog/pm1.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/pm1.jpg">
+            <img class="img-fluid" src="images/products/pm1.jpg" alt="project-image">
           </a>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;pm&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/pm2.jpg">
-            <img class="img-fluid" src="images/blog/pm2.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/pm2.jpg">
+            <img class="img-fluid" src="images/products/pm2.jpg" alt="project-image">
           </a>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;pm&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/pm3.jpg">
-            <img class="img-fluid " src="images/blog/pm3.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/pm3.jpg">
+            <img class="img-fluid " src="images/products/pm3.jpg" alt="project-image">
           </a>
         </div>
       </div>
@@ -822,8 +822,8 @@
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;pm&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/pm4.jpg">
-            <img class="img-fluid" src="images/blog/pm4.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/pm4.jpg">
+            <img class="img-fluid" src="images/products/pm4.jpg" alt="project-image">
           </a>
         </div>
       </div>
@@ -833,24 +833,24 @@
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gc&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/gc-3.jpg">
-            <img class="img-fluid" src="images/blog/gc-3.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/gc-3.jpg">
+            <img class="img-fluid" src="images/products/gc-3.jpg" alt="project-image">
           </a>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gc&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/gc.webp">
-            <img class="img-fluid" src="images/blog/gc.webp" alt="project-image">
+          <a class="gallery-popup" href="images/products/gc.webp">
+            <img class="img-fluid" src="images/products/gc.webp" alt="project-image">
           </a>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gc&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/gc1.jpg">
-            <img class="img-fluid" src="images/blog/gc1.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/gc1.jpg">
+            <img class="img-fluid" src="images/products/gc1.jpg" alt="project-image">
           </a>
         </div>
       </div>
@@ -860,8 +860,8 @@
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;trio&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/trio1.png">
-            <img class="img-fluid" src="images/blog/trio1.png" alt="project-image">
+          <a class="gallery-popup" href="images/products/trio1.png">
+            <img class="img-fluid" src="images/products/trio1.png" alt="project-image">
           </a>
         </div>
       </div>
@@ -869,8 +869,8 @@
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;trio&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/trio 3.jpg">
-            <img class="img-fluid" src="images/blog/trio 3.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/trio 3.jpg">
+            <img class="img-fluid" src="images/products/trio 3.jpg" alt="project-image">
           </a>
         </div>
       </div>
@@ -878,8 +878,8 @@
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;trio&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/trio 2.png">
-            <img class="img-fluid" src="images/blog/trio 2.png" alt="project-image">
+          <a class="gallery-popup" href="images/products/trio 2.png">
+            <img class="img-fluid" src="images/products/trio 2.png" alt="project-image">
           </a>
         </div>
       </div>
@@ -889,48 +889,48 @@
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/con1.jpg">
-            <img class="img-fluid" src="images/blog/con1.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/con1.jpg">
+            <img class="img-fluid" src="images/products/con1.jpg" alt="project-image">
           </a>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/con2.jpg">
-            <img class="img-fluid" src="images/blog/con2.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/con2.jpg">
+            <img class="img-fluid" src="images/products/con2.jpg" alt="project-image">
           </a>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/con3.jpg">
-            <img class="img-fluid" src="images/blog/con3.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/con3.jpg">
+            <img class="img-fluid" src="images/products/con3.jpg" alt="project-image">
           </a>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/con4.jpg">
-            <img class="img-fluid" src="images/blog/con4.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/con4.jpg">
+            <img class="img-fluid" src="images/products/con4.jpg" alt="project-image">
           </a>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/con5.jpg">
-            <img class="img-fluid" src="images/blog/con5.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/con5.jpg">
+            <img class="img-fluid" src="images/products/con5.jpg" alt="project-image">
           </a>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/con6.jpg">
-            <img class="img-fluid" src="images/blog/con6.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/con6.jpg">
+            <img class="img-fluid" src="images/products/con6.jpg" alt="project-image">
           </a>
         </div>
       </div>
@@ -938,8 +938,8 @@
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/con7.jpg">
-            <img class="img-fluid" src="images/blog/con7.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/con7.jpg">
+            <img class="img-fluid" src="images/products/con7.jpg" alt="project-image">
           </a>
         </div>
       </div>
@@ -949,24 +949,24 @@
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gh&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/glamp1.jpg">
-            <img class="img-fluid" src="images/blog/glamp1.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/glamp1.jpg">
+            <img class="img-fluid" src="images/products/glamp1.jpg" alt="project-image">
           </a>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gh&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/glamp2.webp">
-            <img class="img-fluid" src="images/blog/glamp2.webp" alt="project-image">
+          <a class="gallery-popup" href="images/products/glamp2.webp">
+            <img class="img-fluid" src="images/products/glamp2.webp" alt="project-image">
           </a>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gh&quot;]">
         <div class="project-img-container">
-          <a class="gallery-popup" href="images/blog/glamp3.jpg">
-            <img class="img-fluid" src="images/blog/glamp3.jpg" alt="project-image">
+          <a class="gallery-popup" href="images/products/glamp3.jpg">
+            <img class="img-fluid" src="images/products/glamp3.jpg" alt="project-image">
           </a>
         </div>
       </div>
@@ -1117,7 +1117,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;lux&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/lux1.jpg" alt="portfolio-image" class="img-fluid rounded ">
+            <img src="images/products/lux1.jpg" alt="portfolio-image" class="img-fluid rounded ">
             <div class="hover-overlay  ">
               <div class="hover-content">
                 <!-- <a class="btn btn-light btn-sm" data-target="#myModal">ENQUIRE NOW</a> -->
@@ -1129,7 +1129,7 @@
         </div>
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;lux&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/lux2.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/lux2.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1140,7 +1140,7 @@
         </div>
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;lux&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/lux3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/lux3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1151,7 +1151,7 @@
         </div>
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;lux&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/lux4.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/lux4.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1164,7 +1164,7 @@
         <!-- elevated -->
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;ele&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/elevated.jpeg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/elevated.jpeg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1175,7 +1175,7 @@
         </div>
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;ele&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/elevated 2.jpeg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/elevated 2.jpeg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1190,7 +1190,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item illustration" data-groups="[&quot;pm&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/pm2.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/pm2.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1202,7 +1202,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;pm&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/pm3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/pm3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1214,7 +1214,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;pm&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/pm4.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/pm4.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1226,7 +1226,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;pm&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/pm.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/pm.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1238,7 +1238,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;pm&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/pm1.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/pm1.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1251,7 +1251,7 @@
         <!-- Glass cube -->
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;gc&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/gc.webp" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/gc.webp" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1263,7 +1263,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;gc&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/gc1.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/gc1.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1275,7 +1275,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;gc&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/gc2.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/gc2.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1289,7 +1289,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;tc&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/trio 2.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/trio 2.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1301,7 +1301,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;tc&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/trio 3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/trio 3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1313,7 +1313,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;tc&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/trio1.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/trio1.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1328,7 +1328,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;con&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/con1.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/con1.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1340,7 +1340,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;con&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/con2.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/con2.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1352,7 +1352,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;con&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/con3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/con3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1364,7 +1364,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;con&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/con4.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/con4.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1376,7 +1376,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;con&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/con5.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/con5.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1388,7 +1388,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;con&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/con6.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/con6.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1400,7 +1400,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;con&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/con7.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/con7.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1414,7 +1414,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;gh&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/glamp1.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/glamp1.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1426,7 +1426,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;gh&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/glamp2.webp" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/glamp2.webp" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
@@ -1438,7 +1438,7 @@
 
         <div class="col-lg-4 col-12 mb-4 shuffle-item" data-groups="[&quot;gh&quot;]">
           <div class="position-relative rounded hover-wrapper">
-            <img src="images/blog/glamp3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="images/products/glamp3.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModalCenter">ENQUIRE
