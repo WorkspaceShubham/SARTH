@@ -243,8 +243,8 @@ a:hover {
 }
 
 @media (max-width: 767px) {
-  .h2{
-    font-size:22px;
+  .h2 {
+    font-size: 22px;
   }
 }
 
@@ -1479,6 +1479,40 @@ hr.rounded {
   }
 }
 
+@media (max-width: 300px) {
+  #mobile2 {
+    /* background-color: red; */
+    content: url("/images/backgrounds/04.webp");
+    height: 560px;
+    margin-top: 25%;
+  }
+}
+
+@media (min-width: 301px) and (max-width: 600px) {
+  #mobile2 {
+    /* background-color: blue; */
+    content: url("/images/backgrounds/04.webp");
+    height: 560px;
+    margin-top: 25%;
+
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  #mobile2 {
+    /* background-color: yellow; */
+    content: url("/images/backgrounds/glow.png");
+  }
+}
+
+@media (min-width: 769px) {
+  #mobile2 {
+    /* background-color: green; */
+    content: url("/images/backgrounds/glow.png");
+
+  }
+}
+
 
 /* Projects area
 ================================================== */
@@ -1489,6 +1523,7 @@ hr.rounded {
   width: 100%;
   border-bottom: 3px solid #ffb600;
 }
+
 .shuffle-btn-group label {
   display: inline-block;
   color: #212121;
@@ -1501,10 +1536,12 @@ hr.rounded {
   cursor: pointer;
   margin: 0;
 }
+
 .shuffle-btn-group label.active {
   color: #212121;
   background: #ffb600;
 }
+
 .shuffle-btn-group label input {
   display: none;
 }
@@ -1513,17 +1550,21 @@ hr.rounded {
 .shuffle-item {
   padding: 0;
 }
+
 .shuffle-item .project-img-container {
   position: relative;
   overflow: hidden;
 }
+
 .shuffle-item .project-img-container img {
   transform: perspective(1px) scale3d(1.1, 1.1, 1);
   transition: all 400ms;
 }
+
 .shuffle-item .project-img-container:hover img {
   transform: perspective(1px) scale3d(1.15, 1.15, 1);
 }
+
 .shuffle-item .project-img-container:after {
   opacity: 0;
   position: absolute;
@@ -1536,9 +1577,11 @@ hr.rounded {
   background-color: rgba(0, 0, 0, 0.7);
   transition: all 400ms;
 }
+
 .shuffle-item .project-img-container:hover:after {
   opacity: 1;
 }
+
 .shuffle-item .project-img-container .gallery-popup .gallery-icon {
   position: absolute;
   top: 0;
@@ -1551,10 +1594,12 @@ hr.rounded {
   transform: perspective(1px) scale3d(0, 0, 0);
   transition: all 400ms;
 }
+
 .shuffle-item .project-img-container:hover .gallery-popup .gallery-icon {
   opacity: 1;
   transform: perspective(1px) scale3d(1, 1, 1);
 }
+
 .shuffle-item .project-img-container .project-item-info {
   position: absolute;
   top: 50%;
@@ -1565,20 +1610,25 @@ hr.rounded {
   padding: 0 30px;
   z-index: 1;
 }
+
 .shuffle-item .project-img-container .project-item-info-content {
   opacity: 0;
   transform: perspective(1px) translate3d(0, 15px, 0);
   transition: all 400ms;
 }
+
 .shuffle-item .project-img-container .project-item-info-content .project-item-title {
   font-size: 20px;
 }
+
 .shuffle-item .project-img-container .project-item-info-content .project-item-title a {
   color: #fff;
 }
+
 .shuffle-item .project-img-container .project-item-info-content .project-item-title a:hover {
   color: #000000;
 }
+
 .shuffle-item .project-img-container .project-item-info-content .project-cat {
   background: #000000;
   display: inline-block;
@@ -1588,6 +1638,7 @@ hr.rounded {
   font-size: 10px;
   text-transform: uppercase;
 }
+
 .shuffle-item .project-img-container:hover .project-item-info-content {
   opacity: 1;
   transform: perspective(1px) translate3d(0, 0, 0);
@@ -1626,14 +1677,14 @@ hr.rounded {
   background: #ffb600;
 }
 
-.owl-theme.project-slide .owl-nav > div {
+.owl-theme.project-slide .owl-nav>div {
   position: absolute;
   top: -70px;
   right: 0;
   transform: translateY(-50%);
 }
 
-.project-slide .owl-nav > div {
+.project-slide .owl-nav>div {
   display: inline-block;
   margin: 0 2px;
   font-size: 20px;
@@ -1645,7 +1696,7 @@ hr.rounded {
   text-align: center;
 }
 
-.owl-theme.project-slide .owl-nav > .owl-prev {
+.owl-theme.project-slide .owl-nav>.owl-prev {
   right: 35px;
   left: auto;
 }
@@ -1660,13 +1711,16 @@ hr.rounded {
   margin-bottom: 10px;
   border-bottom: 1px solid #dfdfdf !important;
 }
+
 .accordion-group .card-body {
   padding: 15px 20px;
 }
+
 .accordion-group .card-body img {
   max-width: 100px;
   margin-bottom: 10px;
 }
+
 .accordion-group .card-header .btn {
   font-size: 16px;
   text-transform: uppercase;
@@ -1674,6 +1728,7 @@ hr.rounded {
   padding: 13px 15px;
   padding-bottom: 10px;
 }
+
 .accordion-group .card-header .btn:before {
   font-family: "Font Awesome 5 Free";
   position: absolute;
@@ -1690,13 +1745,16 @@ hr.rounded {
   color: #fff;
   transition: 0.3s;
 }
+
 .accordion-group .card-header .btn[aria-expanded=true] {
   color: #ffb600;
 }
+
 .accordion-group .card-header .btn[aria-expanded=true]::before {
   content: "\f106";
   background-color: #ffb600;
 }
+
 .accordion-group.accordion-classic .card-header .btn:before {
   display: none;
 }
@@ -1705,7 +1763,7 @@ hr.rounded {
 /* spacing
  */
 
- .portfolio-item {
+.portfolio-item {
   position: relative;
   padding-left: 0;
   padding-right: 0;
@@ -1722,9 +1780,11 @@ hr.rounded {
   margin-left: 25px;
   padding-bottom: 60px;
 }
+
 .team-slide .slick-list {
   margin-left: -25px;
 }
+
 .team-slide .carousel-control {
   position: absolute;
   bottom: 0;
@@ -1737,19 +1797,24 @@ hr.rounded {
   transition: 0.3s;
   z-index: 6;
 }
+
 .team-slide .carousel-control:hover {
   background-color: #ffb600;
   color: #fff;
 }
+
 .team-slide .carousel-control.left {
   transform: translateX(calc(-50% - 25px));
 }
+
 .team-slide .carousel-control.right {
   transform: translateX(calc(-50% + 25px));
 }
+
 .team-slide .carousel-control.slick-disabled {
   opacity: 0.4;
 }
+
 .team-slide .carousel-control.slick-disabled:hover {
   background-color: #ddd;
   color: #000;
@@ -1759,6 +1824,7 @@ hr.rounded {
   position: relative;
   overflow: hidden;
 }
+
 .ts-team-wrapper .ts-team-content {
   position: absolute;
   top: 76%;
@@ -1771,16 +1837,19 @@ hr.rounded {
   background: rgba(0, 0, 0, 0.5);
   transition: 350ms;
 }
+
 @media (max-width: 1200px) {
   .ts-team-wrapper .ts-team-content {
     top: 72%;
   }
 }
+
 @media (max-width: 575px) {
   .ts-team-wrapper .ts-team-content {
     text-align: center;
   }
 }
+
 .ts-team-wrapper .ts-name {
   font-size: 16px;
   margin-top: 0;
@@ -1788,21 +1857,25 @@ hr.rounded {
   line-height: normal;
   color: #ffb600;
 }
+
 .ts-team-wrapper .ts-designation {
   color: #fff;
   font-size: 14px;
   margin-bottom: 15px;
   font-weight: 700;
 }
+
 .ts-team-wrapper .team-social-icons a i {
   color: #fff;
   margin-right: 8px;
   text-align: center;
   transition: 400ms;
 }
+
 .ts-team-wrapper .team-social-icons a i:hover {
   color: #ffb600;
 }
+
 .ts-team-wrapper:hover .ts-team-content {
   top: 0;
   padding-top: 50px;
@@ -1812,19 +1885,23 @@ hr.rounded {
 .ts-team-content-classic {
   margin-top: 15px;
 }
+
 .ts-team-content-classic .ts-name {
   font-size: 16px;
   margin-bottom: 5px;
   color: #212121;
 }
+
 .ts-team-content-classic .ts-designation {
   color: #888;
   margin-bottom: 5px;
   font-weight: 600;
 }
+
 .ts-team-content-classic .team-social-icons a i {
   color: #999;
 }
+
 .ts-team-content-classic .team-social-icons a i:hover {
   color: #ffb600;
 }
@@ -1837,147 +1914,52 @@ hr.rounded {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-.hero {
-  overflow-x: hidden;
-  padding: 0;
+
+.carousel-inner .carousel-item {
+  transition: transform 2s ease;
 }
 
-.hero .carousel {
+.h1-carousel {
   width: 100%;
-  min-height: 100vh;
-  padding: 80px 0;
-  margin: 0;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(2, 15, 19, 0.7);
+  font-family: "Julius Sans One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4vw;
+  /*transition: 0.4s;*/
+}
+
+.carousel-caption {
+  top: 40%;
+}
+
+.caption-top {
   position: relative;
+  /*absolute*/
+  top: 0;
+  /*<= added*/
+  opacity: 1;
+  transition: .4s;
 }
 
-.hero .carousel-item {
-  position: absolute;
-  inset: 0;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  z-index: 1;
-  transition-duration: 0.4s;
+.caption-top.hidden {
+  top: -90vh;
+  /*0*/
+  opacity: 0;
+  transition: .4s;
 }
 
-.hero .carousel-item::before {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  inset: 0;
-}
-
-.hero .info {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-}
-
-@media (max-width: 768px) {
-  .hero .info {
-    padding: 0 50px;
-  }
-}
-
-.hero .info h2 {
-  color: #fff;
-  margin-bottom: 30px;
-  padding-bottom: 30px;
-  font-size: 56px;
-  font-weight: 700;
+.caption-bottom {
   position: relative;
+  bottom: 4vh;
+  opacity: 1;
+  transition: .4s;
 }
 
-.hero .info h2:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 80px;
-  height: 4px;
-  background: var(--color-primary);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-}
-
-@media (max-width: 768px) {
-  .hero .info h2 {
-    font-size: 36px;
-  }
-}
-
-.hero .info p {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
-}
-
-.hero .info .btn-get-started {
-  font-family: var(--font-primary);
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 40px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  color: #fff;
-  border: 2px solid var(--color-primary);
-}
-
-.hero .info .btn-get-started:hover {
-  background: var(--color-primary);
-}
-
-.hero .carousel-control-prev {
-  justify-content: start;
-}
-
-@media (min-width: 640px) {
-  .hero .carousel-control-prev {
-    padding-left: 15px;
-  }
-}
-
-.hero .carousel-control-next {
-  justify-content: end;
-}
-
-@media (min-width: 640px) {
-  .hero .carousel-control-next {
-    padding-right: 15px;
-  }
-}
-
-.hero .carousel-control-next-icon,
-.hero .carousel-control-prev-icon {
-  background: none;
-  font-size: 26px;
-  line-height: 0;
-  background: rgba(255, 255, 255, 0.2);
-  color: rgba(255, 255, 255, 0.6);
-  border-radius: 50px;
-  width: 54px;
-  height: 54px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero .carousel-control-prev,
-.hero .carousel-control-next {
-  z-index: 3;
-  transition: 0.3s;
-}
-
-.hero .carousel-control-prev:focus,
-.hero .carousel-control-next:focus {
-  opacity: 0.5;
-}
-
-.hero .carousel-control-prev:hover,
-.hero .carousel-control-next:hover {
-  opacity: 0.9;
+.caption-bottom.hidden {
+  bottom: -90vh;
+  opacity: 0;
+  transition: .4s;
 }

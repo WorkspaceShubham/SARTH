@@ -108,33 +108,33 @@
         dots: false,
         arrows: false,
         responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 400,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
             }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 400,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
         ]
     });
 
@@ -159,41 +159,69 @@
     // ????????????????????
 
 
-	// CLEAR fORM
+    // CLEAR fORM
 
-	const btn = document.getElementById('form-contact');
+    const btn = document.getElementById('form-contact');
 
-	btn.addEventListener('click', function handleClick(event) {
+    btn.addEventListener('click', function handleClick(event) {
 
-		event.preventDefault();
+        event.preventDefault();
 
-		const nameInput = document.getElementsByName('name');
-		const phoneInput = document.getElementsByName('phone');
-		const mailInput = document.getElementsByName('email');
-		// const subjectInput = document.getElementsByName('message');
-		const messageInput = document.getElementsByName('message');
-
-
+        const nameInput = document.getElementsByName('name');
+        const phoneInput = document.getElementsByName('phone');
+        const mailInput = document.getElementsByName('email');
+        // const subjectInput = document.getElementsByName('message');
+        const messageInput = document.getElementsByName('message');
 
 
 
-		// Send value to server
-		console.log(nameInput.value);
-		console.log(phoneInput.value);
-		console.log(mailInput.value);
-		// console.log(subjectInput.value);
-		console.log(messageInput.value);
 
 
-		// 👇️ clear input field
-		nameInput.value = '';
-		phoneInput.value = '';
-		mailInput.value = '';
-		// subjectInput.value = '';
-		messageInput.value = '';
+        // Send value to server
+        console.log(nameInput.value);
+        console.log(phoneInput.value);
+        console.log(mailInput.value);
+        // console.log(subjectInput.value);
+        console.log(messageInput.value);
 
-	});
 
+        // 👇️ clear input field
+        nameInput.value = '';
+        phoneInput.value = '';
+        mailInput.value = '';
+        // subjectInput.value = '';
+        messageInput.value = '';
+
+    });
+
+    // HERO
+
+    const topcap = document.querySelectorAll(".caption-top");
+    const bottomcap = document.querySelectorAll(".caption-bottom");
+    const captions = document.querySelectorAll(".carousel-caption");
+    const hiddenClass = "hidden";
+
+    var TACarousel = document.querySelector("#CarouselTextAnim");
+
+    let currentItem, nextItem;
+
+    document.addEventListener("DOMContentLoaded", function (e) {
+        currentItem = captions[0];
+    });
+
+    TACarousel.addEventListener("slid.bs.carousel", function (e) {
+        currentItem = e.relatedTarget.nextElementSibling;
+
+        nextItem.firstElementChild.classList.remove(hiddenClass);
+        nextItem.lastElementChild.classList.remove(hiddenClass);
+    });
+
+    TACarousel.addEventListener("slide.bs.carousel", function (e) {
+        nextItem = e.relatedTarget.nextElementSibling;
+
+        currentItem.firstElementChild.classList.add(hiddenClass);
+        currentItem.lastElementChild.classList.add(hiddenClass);
+    });
 
 
 })(jQuery);
