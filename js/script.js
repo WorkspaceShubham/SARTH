@@ -173,10 +173,6 @@
         // const subjectInput = document.getElementsByName('message');
         const messageInput = document.getElementsByName('message');
 
-
-
-
-
         // Send value to server
         console.log(nameInput.value);
         console.log(phoneInput.value);
@@ -194,34 +190,8 @@
 
     });
 
-    // HERO
-
-    const topcap = document.querySelectorAll(".caption-top");
-    const bottomcap = document.querySelectorAll(".caption-bottom");
-    const captions = document.querySelectorAll(".carousel-caption");
-    const hiddenClass = "hidden";
-
-    var TACarousel = document.querySelector("#CarouselTextAnim");
-
-    let currentItem, nextItem;
-
-    document.addEventListener("DOMContentLoaded", function (e) {
-        currentItem = captions[0];
-    });
-
-    TACarousel.addEventListener("slid.bs.carousel", function (e) {
-        currentItem = e.relatedTarget.nextElementSibling;
-
-        nextItem.firstElementChild.classList.remove(hiddenClass);
-        nextItem.lastElementChild.classList.remove(hiddenClass);
-    });
-
-    TACarousel.addEventListener("slide.bs.carousel", function (e) {
-        nextItem = e.relatedTarget.nextElementSibling;
-
-        currentItem.firstElementChild.classList.add(hiddenClass);
-        currentItem.lastElementChild.classList.add(hiddenClass);
-    });
+    // form
+    
 
 
 })(jQuery);

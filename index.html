@@ -99,13 +99,13 @@
     <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-interval="5000">
-          <img src="./images/backgrounds/032.webp" class="d-block w-100" alt="...">
+          <img src="./images/backgrounds/032.webp" id="mobile" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item" data-interval="5000">
-          <img src="./images/backgrounds/GLOW2.png" class="d-block w-100" alt="...">
+          <img src="./images/backgrounds/GLOW2.png" id="mobile2" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item" data-interval="5000">
-          <img src="./images/backgrounds/glow.png" class="d-block w-100" alt="...">
+          <img src="./images/backgrounds/glow.png" id="mobile3" class="d-block w-100" alt="...">
         </div>
       </div>
       <!-- <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval" data-slide="prev">
@@ -639,7 +639,7 @@
             <h4 class="mb-80">FEEL FREE TO CONTACT US.</h4>
 
             <form id="form-contact" name="rvcasole-formresponses" class="row" method="POST"
-              action="https://script.google.com/macros/s/AKfycbzYLElRk9aXGV9oK1xnXEEt_sK1D-TLJGn4u8WDfJdxakXvhQTiVQbC3e7SOua6bheW/exec">
+              action="https://script.google.com/macros/s/AKfycbzH_ZotoBXAYAMxSZ1GkbcqDNP-mbqQy53NK4PAzpkpkf6IaHuHJ_Fb3NqgI9FPJTEf/exec">
               <div class="col-md-6">
                 <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4"
                   required>
@@ -657,7 +657,7 @@
                   <div class="form-field">
                     <div class="select-wrap">
                       <!-- <div class="icon"><span class="fa fa-chevron-down"></span></div> -->
-                      <select name="Selection" id="" class="form-control">
+                      <select name="Selection" id="Selection" class="form-control">
                         <option value="Not Selected">Select Categories</option>
                         <option value="MODULAR COTTAGES">MODULAR COTTAGES</option>
                         <option value="CONTAINER CUBE">CONTAINER CUBE</option>
@@ -678,61 +678,66 @@
                   <button type="submit" id="submit" class="btn btn-primary" data-toggle="modal"
                     data-target="#exampleModal">SUBMIT</button>
                 </div>
+              </div>
 
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title ml-2" id="exampleModalLabel">Eco-Vastu
+                        Builders
+                      </h5>
 
-                <script>
-
-                  const scriptURL = 'https://script.google.com/macros/s/AKfycbzYLElRk9aXGV9oK1xnXEEt_sK1D-TLJGn4u8WDfJdxakXvhQTiVQbC3e7SOua6bheW/exec'
-                  const form = document.forms['rvcasole-formresponses']
-                  form.addEventListener('submit', e => {
-                    e.preventDefault()
-                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                      .then(response => document.getElementById('form-contact').reset())
-                      .catch(error => console.error('Error!', error.message))
-                  })
-
-                  window.addEventListener("load", function () {
-                    const form = document.getElementById('form-contact');
-                    form.addEventListener("submit", function (e) {
-                      e.preventDefault();
-                      const data = new FormData(form);
-                      const action = e.target.action;
-                      fetch(action, {
-                        method: 'POST',
-                        body: data,
-                      })
-                        .then(() => {
-                          window.location.href = '/';
-                        })
-                    });
-                  });
-                </script>
-
-
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                  aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title ml-2" id="exampleModalLabel">Eco-Vastu
-                          Builders
-                        </h5>
-
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        Thank You For Connecting Us.
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Thank You For Connecting Us.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
                   </div>
                 </div>
               </div>
+
+
+              <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbydQrV11QKRWOJ-HPTlEsVaZa1Z3z15DAN6It5k42b8voWDO4w/exec'
+                const form = document.forms['rvcasole-formresponses']
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                  })
+                    .then(function (response) {
+                      var frm = document.getElementsByName('rvcasole-formresponses')[0];
+                      frm.reset();
+                      console.log('Success!', response);
+                    })
+                    .catch(error => console.error('Error!', error.message))
+                })
+
+                window.addEventListener("load", function () {
+                  const form = document.getElementById('form-contact');
+                  form.addEventListener("submit", function (e) {
+                    e.preventDefault();
+                    const data = new FormData(form);
+                    const action = e.target.action;
+                    fetch(action, {
+                      method: 'POST',
+                      body: data,
+                    })
+                      .then(() => {
+                        window.location.href = '/';
+                      })
+                  });
+                });
+              </script>
           </div>
           </form>
         </div>

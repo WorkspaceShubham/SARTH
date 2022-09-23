@@ -1499,14 +1499,14 @@ hr.rounded {
 }
 
 @media (min-width: 601px) and (max-width: 768px) {
-  #mobile2 {
+  #mobile3 {
     /* background-color: yellow; */
     content: url("/images/backgrounds/glow.png");
   }
 }
 
 @media (min-width: 769px) {
-  #mobile2 {
+  #mobile3 {
     /* background-color: green; */
     content: url("/images/backgrounds/glow.png");
 
