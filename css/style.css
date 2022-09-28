@@ -497,7 +497,7 @@ textarea.form-control {
 
 @media (max-width: 991px) {
   .navigation.nav-bg {
-    padding: 15px 20px;
+    padding: 6px 20px;
   }
 }
 
@@ -1976,4 +1976,4 @@ hr.rounded {
 }
 
 
-/* over */
+/* Hide-Title */

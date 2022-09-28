@@ -45,37 +45,37 @@
     document.addEventListener("DOMContentLoaded", function () { var t = document.querySelector(".vanillatop"); function e(n) { var o = window.pageYOffset, a = Math.floor(Date.now()); !function t() { Math.easeInOutQuad = function (t) { return t < .5 ? 2 * t * t : (4 - 2 * t) * t - 1 }; var e = Math.min(1, (Math.floor(Date.now()) - a) / n); window.scroll(0, Math.ceil(Math.easeInOutQuad(e) * (0 - o) + o)), 0 === window.pageYOffset && callback(), requestAnimationFrame(t) }() } t.addEventListener("click", function () { window.requestAnimationFrame ? e(700) : window.scrollTo(0, 0) }), window.addEventListener("scroll", function () { 280 < document.body.scrollTop || 280 < document.documentElement.scrollTop ? (t.removeAttribute("style", "transform: translateX(120px);"), t.setAttribute("style", "transform: translateX(0);")) : (t.removeAttribute("style", "transform: translateX(0);"), t.setAttribute("style", "transform: translateX(120px);")) }) });
   </script>
 
-  <header class="navigation fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand font-tertiary mb-1" href="/"><img src="images/111.png" alt="Myself"></a>
-      <button class="navbar-toggler btn-danger" type="button" data-toggle="collapse" data-target="#navigation"
-        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand font-tertiary mb-1 " href="/"><img src="images/111.png" class="logo-main" alt="Myself"></a>
+    <button class="navbar-toggler btn-dark" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="/">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="products.html">PRODUCTS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
-          </li>
+    <div class="collapse navbar-collapse text-center mt-2" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">PRODUCTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+        </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-            <!-- <a class="btn btn-light btn-sm mb-1" href="#contact">CONTACT US</a> -->
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+          <!-- <a class="btn btn-light btn-sm " href="#contact">CONTACT</a> -->
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
 
   <!-- page title -->
   <section class="page-title bg-primary position-relative">
