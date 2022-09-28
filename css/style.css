@@ -49,7 +49,7 @@ h1,
 
   h1,
   .h1 {
-    font-size: 65px;
+    font-size: 45px;
   }
 }
 
@@ -920,7 +920,9 @@ blockquote {
 
 .page-title {
   /* padding: 250px 0 150px; */
-  padding: 100px 0 86px;
+  /* padding: 100px 0 86px; */
+  padding: 79px 0 50px;
+
 
 }
 
