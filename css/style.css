@@ -89,12 +89,12 @@ h6,
 
 /* Button style */
 .btn {
-  font-size: 22px;
+  font-size: 15px;
   font-family: 'Chakra Petch', sans-serif !important;
   /* font-family: 'Chakra Petch', sans-serif; */
 
   text-transform: capitalize;
-  padding: 16px 44px;
+  padding: 10px 30px;
   border-radius: 5px;
   font-weight: 600;
   border: 0;
@@ -503,7 +503,7 @@ textarea.form-control {
 
 @media (max-width: 991px) {
   .navigation {
-    padding: 20px;
+    padding: 8px;
     background: #000000;
   }
 }
@@ -1055,11 +1055,11 @@ a.vanillatop:hover {
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 16px;
+  padding: 13px;
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
-  height: 60px;
+  height: 47px;
 }
 
 /* Style the social media icons with color, if you want */
@@ -1068,12 +1068,12 @@ a.vanillatop:hover {
 }
 
 .phone {
-  background: #2200ff;
+  background: #383838;
   color: white;
 }
 
 .whatsapp {
-  background: #396b46;
+  background: #0dd828;
   color: white;
 }
 
@@ -1126,8 +1126,8 @@ a.vanillatop:hover {
 
 
 .logo {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
 }
 
 .row-leadership {
@@ -1448,8 +1448,9 @@ hr.rounded {
   #mobile {
     /* background-color: red; */
     content: url("/images/backgrounds/04.webp");
-    height: 560px;
-    margin-top: 25%;
+    /* height: 560px; */
+    height:470px;
+    margin-top: 15%;
   }
 }
 
@@ -1457,9 +1458,8 @@ hr.rounded {
   #mobile {
     /* background-color: blue; */
     content: url("/images/backgrounds/04.webp");
-
-    height: 560px;
-    margin-top: 25%;
+    height:470px;
+    margin-top: 15%;
 
   }
 }
@@ -1483,8 +1483,9 @@ hr.rounded {
   #mobile2 {
     /* background-color: red; */
     content: url("/images/backgrounds/04.webp");
-    height: 560px;
-    margin-top: 25%;
+    height:470px;
+    margin-top: 15%;
+
   }
 }
 
@@ -1492,24 +1493,22 @@ hr.rounded {
   #mobile2 {
     /* background-color: blue; */
     content: url("/images/backgrounds/04.webp");
-    height: 560px;
-    margin-top: 25%;
+    height:470px;
+    margin-top: 15%;
+
 
   }
 }
 
 @media (min-width: 601px) and (max-width: 768px) {
   #mobile3 {
-    /* background-color: yellow; */
-    content: url("/images/backgrounds/glow.webp");
+    content: url("/images/backgrounds/04.webp");
   }
 }
 
 @media (min-width: 769px) {
   #mobile3 {
-    /* background-color: green; */
-    content: url("/images/backgrounds/glow.webp");
-
+    content: url("/images/backgrounds/04.webp");
   }
 }
 
@@ -1963,3 +1962,18 @@ hr.rounded {
   opacity: 0;
   transition: .4s;
 }
+
+/* Logo main */
+
+.logo-main {
+  width: 100%;
+}
+
+@media (min-width: 301px) and (max-width: 600px) {
+  .logo-main {
+    width: 70%;
+  }
+}
+
+
+/* over */
