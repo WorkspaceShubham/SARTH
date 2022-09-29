@@ -1981,3 +1981,43 @@ hr.rounded {
 
 
 /* Hide-Title */
+ /* Social Media Icons */
+
+ .ti {
+  padding: 17px;
+  font-size: 20px;
+  width: 30px;
+  /* height: 50px; */
+  text-align: center;
+  text-decoration: none;
+  /* margin: 5px 2px; */
+}
+
+.ti:hover {
+  opacity: 0.7;
+}
+
+.ti-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.ti-facebook {
+  background: #0154cf;
+  color: white;
+}
+
+.ti-whatsapp {
+  background: #05dd05;
+  color: white;
+}
+
+.whatsapp {
+  background: #1fb61f;
+  color: white;
+}
+
+.ti-instagram {
+  background: #d5183f;
+  color: white;
+}

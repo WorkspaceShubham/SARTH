@@ -45,37 +45,37 @@
     document.addEventListener("DOMContentLoaded", function () { var t = document.querySelector(".vanillatop"); function e(n) { var o = window.pageYOffset, a = Math.floor(Date.now()); !function t() { Math.easeInOutQuad = function (t) { return t < .5 ? 2 * t * t : (4 - 2 * t) * t - 1 }; var e = Math.min(1, (Math.floor(Date.now()) - a) / n); window.scroll(0, Math.ceil(Math.easeInOutQuad(e) * (0 - o) + o)), 0 === window.pageYOffset && callback(), requestAnimationFrame(t) }() } t.addEventListener("click", function () { window.requestAnimationFrame ? e(700) : window.scrollTo(0, 0) }), window.addEventListener("scroll", function () { 280 < document.body.scrollTop || 280 < document.documentElement.scrollTop ? (t.removeAttribute("style", "transform: translateX(120px);"), t.setAttribute("style", "transform: translateX(0);")) : (t.removeAttribute("style", "transform: translateX(0);"), t.setAttribute("style", "transform: translateX(120px);")) }) });
   </script>
 
-<header class="navigation fixed-top">
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand font-tertiary mb-1 " href="/"><img src="images/111.png" class="logo-main" alt="Myself"></a>
-    <button class="navbar-toggler btn-dark" type="button" data-toggle="collapse" data-target="#navigation"
-      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <header class="navigation fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand font-tertiary mb-1 " href="/"><img src="images/111.png" class="logo-main" alt="Myself"></a>
+      <button class="navbar-toggler btn-dark" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse text-center mt-2" id="navigation">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">ABOUT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="products.html">PRODUCTS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
-        </li>
+      <div class="collapse navbar-collapse text-center mt-2" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+          </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-          <!-- <a class="btn btn-light btn-sm " href="#contact">CONTACT</a> -->
-        </li>
-      </ul>
-    </div>
-  </nav>
-</header>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+            <!-- <a class="btn btn-light btn-sm " href="#contact">CONTACT</a> -->
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
   <!-- page title -->
   <section class="page-title bg-primary position-relative">
@@ -390,7 +390,7 @@
             <h4 class="mb-80">FEEL FREE TO CONTACT US.</h4>
 
             <form id="form-contact" name="rvcasole-formresponses" class="row" method="POST"
-              action="https://script.google.com/macros/s/AKfycbzYLElRk9aXGV9oK1xnXEEt_sK1D-TLJGn4u8WDfJdxakXvhQTiVQbC3e7SOua6bheW/exec">
+              action="https://script.google.com/macros/s/AKfycbzH_ZotoBXAYAMxSZ1GkbcqDNP-mbqQy53NK4PAzpkpkf6IaHuHJ_Fb3NqgI9FPJTEf/exec">
               <div class="col-md-6">
                 <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4"
                   required>
@@ -408,7 +408,7 @@
                   <div class="form-field">
                     <div class="select-wrap">
                       <!-- <div class="icon"><span class="fa fa-chevron-down"></span></div> -->
-                      <select name="Selection" id="" class="form-control">
+                      <select name="Selection" id="Selection" class="form-control">
                         <option value="Not Selected">Select Categories</option>
                         <option value="MODULAR COTTAGES">MODULAR COTTAGES</option>
                         <option value="CONTAINER CUBE">CONTAINER CUBE</option>
@@ -424,66 +424,82 @@
                 <textarea name="message" id="message" class="form-control px-0 mb-4" placeholder="Type Message Here"
                   required></textarea>
               </div>
+
               <div class="col-lg-6 col-10 mx-auto">
                 <div class="form-group">
                   <button type="submit" id="submit" class="btn btn-primary" data-toggle="modal"
                     data-target="#exampleModal">SUBMIT</button>
                 </div>
 
+                <br>
 
-                <script>
+                <p class="mt-3 text-center">
+                  <!-- <a href="/about.html" class="btn btn-primary rounded py-2 px-5 text-center"><i class="fa-arrow-circle-o-right"></i></a>  <span></span> -->
+                  <a href="#" class="ti ti-instagram"></a>
+                  <a href="#" class="ti ti-linkedin"></a>
+                  <a href="#" class="ti ti-facebook"></a>
+                  <!-- <a href="#" class="ti ti-whatsapp"></a> -->
+                </p>
 
-                  const scriptURL = 'https://script.google.com/macros/s/AKfycbzYLElRk9aXGV9oK1xnXEEt_sK1D-TLJGn4u8WDfJdxakXvhQTiVQbC3e7SOua6bheW/exec'
-                  const form = document.forms['rvcasole-formresponses']
-                  form.addEventListener('submit', e => {
-                    e.preventDefault()
-                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                      .then(response => document.getElementById('form-contact').reset())
-                      .catch(error => console.error('Error!', error.message))
-                  })
+              </div>
 
-                  window.addEventListener("load", function () {
-                    const form = document.getElementById('form-contact');
-                    form.addEventListener("submit", function (e) {
-                      e.preventDefault();
-                      const data = new FormData(form);
-                      const action = e.target.action;
-                      fetch(action, {
-                        method: 'POST',
-                        body: data,
-                      })
-                        .then(() => {
-                          window.location.href = '/';
-                        })
-                    });
-                  });
-                </script>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title ml-2" id="exampleModalLabel">SARTH INNOVATIONS
+                      </h5>
 
-
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                  aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title ml-2" id="exampleModalLabel">Eco-Vastu
-                          Builders
-                        </h5>
-
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        Thank You For Connecting Us.
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Thank You For Connecting Us.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
                   </div>
                 </div>
               </div>
+
+
+              <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbydQrV11QKRWOJ-HPTlEsVaZa1Z3z15DAN6It5k42b8voWDO4w/exec'
+                const form = document.forms['rvcasole-formresponses']
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                  })
+                    .then(function (response) {
+                      var frm = document.getElementsByName('rvcasole-formresponses')[0];
+                      frm.reset();
+                      console.log('Success!', response);
+                    })
+                    .catch(error => console.error('Error!', error.message))
+                })
+
+                window.addEventListener("load", function () {
+                  const form = document.getElementById('form-contact');
+                  form.addEventListener("submit", function (e) {
+                    e.preventDefault();
+                    const data = new FormData(form);
+                    const action = e.target.action;
+                    fetch(action, {
+                      method: 'POST',
+                      body: data,
+                    })
+                      .then(() => {
+                        window.location.href = '/';
+                      })
+                  });
+                });
+              </script>
           </div>
           </form>
         </div>
