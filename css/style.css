@@ -125,7 +125,7 @@ h6,
 }
 
 .btn-primary {
-  background: #396b46;
+  background: #BAB86C;
   color: #fff;
 }
 
@@ -1062,8 +1062,8 @@ a.vanillatop:hover {
   padding: 13px;
   transition: all 0.3s ease;
   color: white;
-  font-size: 20px;
-  height: 47px;
+  font-size: 25px;
+  height: 55px;
 }
 
 /* Style the social media icons with color, if you want */
@@ -1074,11 +1074,14 @@ a.vanillatop:hover {
 .phone {
   background: #0c60dd;
   color: white;
+  border-radius: 25px;
 }
 
 .whatsapp {
   background: #0dd828;
   color: white;
+  border-radius: 25px;
+
 }
 
 
@@ -1524,7 +1527,7 @@ hr.rounded {
   display: inline-block;
   margin: 20px 0 50px;
   width: 100%;
-  border-bottom: 3px solid #ffb600;
+  border-bottom: 3px solid #BAB86C;
 }
 
 .shuffle-btn-group label {
@@ -2018,6 +2021,6 @@ hr.rounded {
 }
 
 .ti-instagram {
-  background: #d5183f;
+  background: #c84470;
   color: white;
 }
