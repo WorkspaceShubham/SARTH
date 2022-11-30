@@ -126,15 +126,17 @@ h6,
 
 .btn-primary {
   background: #BAB86C;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .btn-primary:active {
   background: #0f0f10 !important;
+  color: white;
 }
 
 .btn-primary:hover {
   background: #0f0f10;
+  color: white;
 }
 
 .btn-primary.focus,
@@ -1289,8 +1291,8 @@ a.vanillatop:hover {
 }
 
 .featured-services .description {
-  font-size: 15px;
-  line-height: 28px;
+  font-size: 1.02rem;
+  line-height: 25px;
   margin-bottom: 0;
 }
 
