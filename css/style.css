@@ -2041,7 +2041,7 @@ hr.rounded {
 }
 
 .clients img {
-  max-width: 100%;
+  max-width: 105%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
@@ -2053,7 +2053,7 @@ hr.rounded {
 
 @media (max-width: 768px) {
   .clients img {
-    max-width: 40%;
+    max-width: 100%;
   }
 }
 
