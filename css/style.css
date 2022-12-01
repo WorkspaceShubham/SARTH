@@ -2026,3 +2026,37 @@ hr.rounded {
   background: #c84470;
   color: white;
 }
+
+
+
+
+
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.clients img {
+  max-width: 100%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+}
+
+.clients img:hover {
+  transform: scale(1.15);
+}
+
+@media (max-width: 768px) {
+  .clients img {
+    max-width: 40%;
+  }
+}
+
+.bg-clients{
+  background-color: #bab76cc4;
+}
