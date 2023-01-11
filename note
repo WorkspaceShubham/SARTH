@@ -707,7 +707,7 @@
 
       <div class="col-1 shuffle-sizer"></div>
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;lux&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;lux&quot;]">
         <div class="project-img-container product-item">
           <a class="gallery-popup" href="images/products/lux1.jpg" target="_">
             <img class="img-fluid rounded" src="images/products/lux1.jpg" alt="project-image">
@@ -725,7 +725,7 @@
 
 
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;lux&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;lux&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/lux2.jpg">
             <img class="img-fluid" src="images/products/lux2.jpg" alt="project-image">
@@ -747,7 +747,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;lux&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;lux&quot;]">
 
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/lux3.jpg">
@@ -756,7 +756,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;lux&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;lux&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/lux4.jpg">
             <img class="img-fluid" src="images/products/lux4.jpg" alt="project-image">
@@ -767,7 +767,7 @@
 
       <!-- Elevated -->
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;elevated&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;elevated&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/elevated.jpeg">
             <img class="img-fluid" src="images/products/elevated.jpeg" alt="project-image">
@@ -775,7 +775,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;elevated&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;elevated&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/elevated 2.jpeg">
             <img class="img-fluid" src="images/products/elevated 2.jpeg" alt="project-image">
@@ -785,7 +785,7 @@
 
 
       <!-- Pre Fab Modular -->
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;pm&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;pm&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/pm.jpg">
             <img class="img-fluid" src="images/products/pm.jpg" alt="project-image">
@@ -795,7 +795,7 @@
 
       <!-- PM Modular -->
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;pm&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;pm&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/pm1.jpg">
             <img class="img-fluid" src="images/products/pm1.jpg" alt="project-image">
@@ -803,7 +803,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;pm&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;pm&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/pm2.jpg">
             <img class="img-fluid" src="images/products/pm2.jpg" alt="project-image">
@@ -811,7 +811,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;pm&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;pm&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/pm3.jpg">
             <img class="img-fluid " src="images/products/pm3.jpg" alt="project-image">
@@ -820,7 +820,7 @@
       </div>
 
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;pm&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;pm&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/pm4.jpg">
             <img class="img-fluid" src="images/products/pm4.jpg" alt="project-image">
@@ -831,7 +831,7 @@
 
       <!-- Glass Cube -->
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gc&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;gc&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/gc-3.jpg">
             <img class="img-fluid" src="images/products/gc-3.jpg" alt="project-image">
@@ -839,7 +839,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gc&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;gc&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/gc.webp">
             <img class="img-fluid" src="images/products/gc.webp" alt="project-image">
@@ -847,7 +847,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gc&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;gc&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/gc1.jpg">
             <img class="img-fluid" src="images/products/gc1.jpg" alt="project-image">
@@ -858,7 +858,7 @@
 
       <!-- Triangle Cottage -->
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;trio&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;trio&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/trio1.png">
             <img class="img-fluid" src="images/products/trio1.png" alt="project-image">
@@ -867,7 +867,7 @@
       </div>
 
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;trio&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;trio&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/trio 3.jpg">
             <img class="img-fluid" src="images/products/trio 3.jpg" alt="project-image">
@@ -876,7 +876,7 @@
       </div>
 
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;trio&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;trio&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/trio 2.png">
             <img class="img-fluid" src="images/products/trio 2.png" alt="project-image">
@@ -887,7 +887,7 @@
 
       <!-- Container Units -->
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;con&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/con1.jpg">
             <img class="img-fluid" src="images/products/con1.jpg" alt="project-image">
@@ -895,7 +895,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;con&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/con2.jpg">
             <img class="img-fluid" src="images/products/con2.jpg" alt="project-image">
@@ -903,7 +903,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;con&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/con3.jpg">
             <img class="img-fluid" src="images/products/con3.jpg" alt="project-image">
@@ -911,7 +911,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;con&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/con4.jpg">
             <img class="img-fluid" src="images/products/con4.jpg" alt="project-image">
@@ -919,7 +919,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;con&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/con5.jpg">
             <img class="img-fluid" src="images/products/con5.jpg" alt="project-image">
@@ -927,7 +927,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;con&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/con6.jpg">
             <img class="img-fluid" src="images/products/con6.jpg" alt="project-image">
@@ -936,7 +936,7 @@
       </div>
 
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;con&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;con&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/con7.jpg">
             <img class="img-fluid" src="images/products/con7.jpg" alt="project-image">
@@ -947,7 +947,7 @@
 
       <!-- Glamp Hut -->
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gh&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;gh&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/glamp1.jpg">
             <img class="img-fluid" src="images/products/glamp1.jpg" alt="project-image">
@@ -955,7 +955,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gh&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;gh&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/glamp2.webp">
             <img class="img-fluid" src="images/products/glamp2.webp" alt="project-image">
@@ -963,7 +963,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;gh&quot;]">
+      <div class="col-lg-4 col-md-12 shuffle-item" data-groups="[&quot;gh&quot;]">
         <div class="project-img-container">
           <a class="gallery-popup" href="images/products/glamp3.jpg">
             <img class="img-fluid" src="images/products/glamp3.jpg" alt="project-image">
